@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6b8af15e-8fad-44c6-b5bb-354a74dd6b27" name="Dev Elam" url="http://ftp.elam-edu.com">
+        <fileTransfer host="ftp.elam-edu.com" port="21" rootFolder="/public_html/dev" password="dffddfffdfefdf9ddfd9dfdcdfdddfccdfd9dfc0dff0dfd9df92dffcdfc0dfc5" username="elamedu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

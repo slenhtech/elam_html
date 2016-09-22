@@ -1,0 +1,86 @@
+.jumbo-input{
+   .icon-field{
+     text-align: center;
+     color: #fff;
+     position: relative;
+     z-index: 1;
+
+     .fa{
+       font-size: 30px;
+       padding: 30px 0;
+       position: relative;
+     }
+   }
+   .icon-field:before{
+     content: '';
+     display: block;
+     z-index: 0;
+     position: absolute;
+     height: 140%;
+     width: 100%;
+     left: -20px;
+     top: -20%;
+     background-color: $elam_secondary;
+     @include transform(skew(10deg));
+   }
+
+   .input-field{
+     padding: 25px 20px;
+     background-color: $elam_primary;
+     .field{
+       position: relative;
+       display: inline-block;
+       width: calc(100% - 50px);
+       input{
+         border: none;
+         background: none;
+         width: 100%;
+         height: 45px;
+         position: relative;
+         z-index: 2;
+         padding: 10px 15px;
+       }
+     }
+     .field:before{
+       content: '';
+       display: block;
+       width: 100%;
+       height: 100%;
+       background-color: #ddd;
+       border: solid 2px #fff;
+       border-right: none;
+       left: -10px;
+       top: 0;
+       position: absolute;
+       z-index: 1;
+       @include transform(skew(10deg));
+     }
+     .submit{
+       background-color: $elam_primary;
+       border: solid 2px #fff;
+       border-left: none;
+       position: relative;
+       z-index: 2;
+       right: 20px;
+       top: 1px;
+       color: #fff;
+       font-size: 20px;
+       height: 45px;
+       width: 45px;
+     }
+   }
+   .input-field:before{
+     content: '';
+     display: block;
+     width: 100%;
+     height: 100%;
+     background-color: $elam_primary;
+     left: -30px;
+     top: 0;
+     position: absolute;
+     z-index: -1;
+   }
+ }
+#footer_jumbo-input{
+  margin-top: 70px;
+}

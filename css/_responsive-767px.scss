@@ -1,0 +1,162 @@
+@media (max-width: 767px) {
+
+  //dropdown menu
+  .dropdown-menu{
+    box-shadow: 0 6px 12px rgba(0,0,0,.175) !important;
+  }
+
+  //header
+  #header_buttons_inscription{
+    position: absolute !important;
+    z-index: 1;
+    width: calc(100% - 40px);
+    top: 66px;
+    right: 0;
+
+    .btn{
+      color: #fff !important;
+    }
+
+    .search-form{
+      background-color: $pink !important;
+      padding-left: 20px;
+
+      .search-field{
+        background: none;
+        color: #fff;
+      }
+      .search-field::-webkit-input-placeholder{
+        color: #fff !important;
+      }
+      .search-field::-moz-placeholder{
+        color: #fff !important;
+      }
+      .search-field:-ms-input-placeholder{
+        color: #fff !important;
+      }
+    }
+  }
+
+  //Top slider
+
+  #top_slider{
+    .slide{
+      height: 300px;
+
+      .container{
+        .content{
+          width: 60%;
+          right: 0;
+          padding: 5% 15px;
+
+          .the-title{
+            font-size: 30px;
+            line-height: 30px;
+
+            small{
+              font-size: 20px;
+            }
+          }
+          .buttons{
+            .btn{
+              padding: 10px 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //landing page
+
+  #landing-page{
+    padding: 10vh 0;
+
+    #intro-text{  font-size: 14px;
+    }
+  }
+
+  //Jumbo input
+
+  .jumbo-input{
+    .input-field{
+      .submit{
+        top: 3px;
+      }
+    }
+  }
+
+  #metiers-du-secteur{
+    #liste_metiers{
+      li{
+        width: 40%;
+      }
+    }
+  }
+
+  //Banner FSBO
+  #banner-fsbo{
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 30px;
+
+    #text-fsbo{
+      padding-top: 30px;
+      img{
+        display: block;
+        width: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  //Test connaissances
+  #test-connaissances{
+    .title{
+      font-weight: $font-weight-extra-bold;
+      color: #342600;
+      font-size: 25px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .button{
+      padding: 0;
+      a{
+        font-size: 80px;
+      }
+    }
+
+    .description{
+      text-align: center;
+      padding-top: 15px;
+    }
+  }
+
+  //Description table
+  #description-table{
+    .row{
+      margin-bottom: 10px;
+
+      .tlabel,
+      .data{
+        padding-top: 5px;
+        padding-bottom: 15px;
+      }
+
+      .tlabel{
+        font-weight: $font-weight-extra-bold;
+        font-size: 16px;
+      }
+    }
+
+    .frame{
+
+      img{
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+}

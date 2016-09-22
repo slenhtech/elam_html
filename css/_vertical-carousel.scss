@@ -1,0 +1,73 @@
+.vert-carousel{
+  .placeholder{
+    background-color: #a1a1a1;
+    color: #fff;
+    font-weight: $font-weight-extra-bold;
+    text-align: center;
+    display: block;
+  }
+  .main-carousel{
+    .placeholder{
+      height: 300px;
+      line-height: 300px;
+    }
+  }
+
+  .thumbnails{
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    @include transition(0.2s);
+
+    span.control{
+      position: absolute;
+      z-index: 1;
+      display: block;
+      width: 100%;
+      left: 0;
+      background-color: rgba(#393939, 0.5);
+      color: #fff;
+      text-align: center;
+      height: 40px;
+      padding-top: 10px;
+      font-size: 20px;
+      cursor: pointer;
+
+      @include transition(0.2s);
+    }
+
+    span.control:hover{
+      background-color: rgba($elam_secondary, 0.5);
+    }
+    span.prev{
+      top: -40px;
+    }
+    span.next{
+      bottom: -40px;
+    }
+
+    .thumbs{
+      list-style: none;
+      padding: 0;
+
+      .thumb{
+        cursor: pointer;
+        span{
+          box-shadow: inset 0 -2px 2px rgba(#000, 0.5);
+        }
+      }
+    }
+    .placeholder{
+      height: 100px;
+      line-height: 100px;
+    }
+  }
+  .thumbnails:hover{
+    span.next{
+      bottom: 0;
+    }
+    span.prev{
+      top: 0;
+    }
+  }
+}

@@ -1,0 +1,395 @@
+.secteur-activite{
+  .text{
+    .the-title{
+      font-weight: $font-weight-extra-bold;
+    }
+    .description{
+      text-align: justify;
+    }
+  }
+}
+
+.btn.plus{
+  color: #fff;
+  border-radius: 0;
+  padding: 15px 20px;
+  font-weight: $font-weight-bold;
+}
+.btn.plus::after{
+  content: '\f178';
+  font-family: 'FontAwesome', sans-serif;
+  margin-left: 10px;
+  font-weight: normal;
+}
+.chart{
+  margin: 30px 0;
+  .label{
+    font-weight: $font-weight-extra-bold;
+    color: $grey;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+#banner-fsbo{
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 30px;
+
+  #text-fsbo{
+    color: #fff;
+    font-weight: $font-weight-extra-bold;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+}
+#banner-fsbo:after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(#000, 0.4);
+  z-index: 0;
+}
+
+
+
+
+.separator{
+  display: block;
+  margin: 40px auto;
+  width: 90%;
+  border-top: solid 1px #ddd;
+}
+
+#carousel_metiers{
+  position: relative;
+
+  .slide{
+    position: relative;
+    overflow: hidden;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+
+    img{
+      width: 100%;
+    }
+
+    .the-title{
+      display: block;
+      text-align: center;
+      position: absolute;
+      text-transform: uppercase;
+      font-weight: $font-weight-bold;
+      width: 100%;
+      left: 0;
+      z-index: 2;
+      text-shadow: 0 1px 3px rgba(#000, 0.4);
+      color: #fff;
+      bottom: -50%;
+      @include transition(0.4s);
+    }
+    .search-icon{
+      position: absolute;
+      left: 45%;
+      right: 45%;
+      top: -50%;
+      z-index: 2;
+      color: #ffffff;
+      display: block;
+      height: 30px;
+      width: 30px;
+      border-radius: 100%;
+      cursor: pointer;
+      @include transition(0.4s);
+    }
+    .search-icon:after{
+      content: '\f002';
+      font-family: 'FontAwesome', sans-serif;
+      display: block;
+      position: absolute;
+      left: 8px;
+      top: 5px;
+    }
+  }
+  .slide:hover{
+    .the-title{
+      bottom: 30%;
+    }
+    .search-icon{
+      top: 20%;
+    }
+  }
+  .slide:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 1;
+    @include transition(0.5);
+  }
+  .slide:before{
+    content: '';
+    display: block;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+    visibility: hidden;
+    border-top: solid 10px #fff;
+    border-right: solid 10px #fff;
+    box-shadow: 0 5px 5px -2px rgba(#000, 0.4);
+  }
+  .slide:hover:after{
+    visibility: visible;
+  }
+  .slide:hover:before{
+    visibility: visible;
+  }
+
+  .carousel-controls{
+    text-align: center;
+    margin-bottom: 20px;
+
+    .control{
+      display: inline-block;
+      vertical-align: top;
+      width: 30px;
+      height: 30px;
+      padding-top: 8px;
+      cursor: pointer;
+      color: #fff;
+      margin: 0 5px;
+    }
+    .control:hover{
+      background-color: #a1a1a1 !important;
+    }
+  }
+}
+
+
+#section_temoignages{
+  position: relative;
+
+  .carousel-controls{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    top: 90px;
+
+    .control{
+      display: inline-block;
+      vertical-align: top;
+      padding: 10px 15px;
+      font-size: 40px;
+      cursor: pointer;
+      color: #a1a1a1;
+      margin: 0 5px;
+    }
+    .next{
+      float: right;
+    }
+    .prev{
+      float: left;
+    }
+    .control:hover{
+    }
+  }
+
+  .slide{
+    position: relative;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+
+    .the-picture-thumbnail{
+      width: 120px;
+      height: 120px;
+      margin: 20px auto;
+      overflow: hidden !important;
+      border-radius: 100%;
+      border: solid 4px #fff;
+      box-shadow: 0 1px 3px rgba(#000, 0.4);
+
+      img{
+        width: auto ;
+        height: 100%;
+        z-index: 0;
+      }
+    }
+    .the-details{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .the-content{
+      padding: 20px;
+      text-align: justify;
+      color: #fff;
+      position: relative;
+      z-index: 2 !important;
+      min-height: 200px;
+    }
+    .the-content:after{
+      content: '\f10e';
+      font-family: 'FontAwesome', sans-serif;
+      position: absolute;
+      color: #fff;
+      opacity: 0.4;
+      font-size: 40px;
+      right: 20px;
+      bottom: 10px;
+    }
+    .the-content:before{
+      content: '';
+      display: block;
+      width: 30px;
+      height: 50px;
+      position: absolute;
+      border-left: solid 15px transparent;
+      border-right: solid 15px transparent;
+      border-top: solid 15px transparent;
+      background: none;
+      z-index: 1 !important;
+      left: 40%;
+      top: -40px;
+      @include transform(rotate(28deg));
+    }
+  }
+}
+
+.opportunites{
+  position: relative;
+  overflow: hidden;
+  width: 100px;
+  margin: 0 auto;
+  background-color: #eee;
+  
+  img{
+    position: relative;
+    z-index: 2;
+  }
+  .progress-value{
+    display: block;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+
+    @include animation(1s, 0.5, 1);
+  }
+}
+
+
+#description-table{
+  margin: 40px 0;
+  .row{
+    margin-bottom: 10px;
+
+    .tlabel,
+    .data{
+      padding-top: 5px;
+      padding-bottom: 15px;
+    }
+
+    .tlabel{
+      font-weight: $font-weight-extra-bold;
+      font-size: 16px;
+    }
+  }
+
+  .frame{
+    margin-bottom: 30px;
+    img{
+      height: auto;
+      width: 100%;
+    }
+  }
+}
+
+#metiers-du-secteur{
+  overflow: hidden;
+
+  .btn.plus{
+    margin: 20px 0;
+    float: right;
+  }
+
+  #liste_metiers{
+
+    a{
+      display: block;
+      padding: 10px 15px 10px 25px;
+      color: $grey;
+    }
+    a:before{
+      content: '\f005';
+      font-family: 'FontAwesome', sans-serif;
+      float: left;
+      padding-right: 8px;
+    }
+  }
+}
+#test-connaissances{
+  margin: 50px 0;
+  background: url("../img/school.png");
+
+  .title{
+    font-weight: $font-weight-extra-bold;
+    color: #342600;
+    font-size: 25px;
+    text-align: right;
+    padding: 40px 0;
+  }
+
+  .button{
+    text-align: center;
+    padding: 20px 0;
+    a{
+      color: #fff;
+      font-size: 80px;
+    }
+  }
+
+  .description{
+    color: #fff;
+    padding: 35px 15px;
+    font-size: 16px;
+    font-weight: $font-weight-bold;
+  }
+}
+
+
+
+#liste-partenaires{
+  margin: 20px 0;
+  list-style: none;
+  padding: 0;
+
+  li{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 24.4%;
+    a{
+      display: block;
+
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

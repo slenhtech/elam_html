@@ -1,0 +1,75 @@
+.liste-alphabetique{
+  margin-bottom: 30px;
+  list-style: none;
+  padding-left: 10px;
+
+  border-left: solid 2px #ddd;
+
+  .liste-label{
+    text-transform: uppercase;
+    font-weight: $font-weight-extra-bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .liste-label:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: -15px;
+    height: 100%;
+    width: 5px;
+    background-color: $elam_tertiary;
+  }
+  a{
+    color: #000;
+    padding: 6px;
+    display: block;
+    @include transition(0.2s);
+  }
+  a:hover{
+    color: $elam_tertiary;
+  }
+}
+
+#grande-liste-metiers{
+  .metier{
+
+    .image{
+      position: relative;
+    }
+
+    .image:after{
+      content: '';
+      display: block;
+      width: 10px;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0.6;
+    }
+
+    .details{
+      background-color: #f2f2f2;
+      padding: 15px;
+
+      .the-title{
+        font-weight: $font-weight-bold;
+        color: #000;
+        margin-top: 0;
+      }
+      .the-category{
+        display: inline-block;
+        color: #393939;
+        font-size: 13px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom:  solid 2px $elam_tertiary;
+      }
+      .the-description{
+        color: #393939;
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+
+@mixin placeholder{
+  input::-webkit-input-placeholder{
+    font-style: italic;
+  }
+  input:-moz-placeholder{
+    font-style: italic;
+  }
+  input:-ms-input-placeholder{
+    font-style: italic;
+  }
+}
+
+@mixin transition($time){
+  -webkit-transition: all $time ease-in-out;
+  -moz-transition: all $time ease-in-out;
+  -ms-transition: all $time ease-in-out;
+  -o-transition: all $time ease-in-out;
+  transition: all $time ease-in-out;
+}
+
+@mixin animation-duration($time){
+  -webkit-animation-duration: $time;
+  -moz-animation-duration: $time;
+  -o-animation-duration: $time;
+  animation-duration: $time;
+}
+
+@mixin after($color,$opacity){
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  background: rgba($color, $opacity);
+}
+
+@mixin linear-gradient($angle, $from, $to){
+  background: -webkit-linear-gradient($angle, $from, $to);
+  background: -moz-linear-gradient($angle, $from, $to);
+  background: -ms-linear-gradient($angle, $from, $to);
+  background: -o-linear-gradient($angle, $from, $to);
+  background:  linear-gradient($angle, $from, $to);
+}
+
+@mixin blueBand($width){
+  .container:before{
+    content: '';
+    display: block;
+    width: $width;
+    height: $width*1.7;
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    top: 0;
+  }
+  .container:after{
+    content: '';
+    display: block;
+    width: $width * 0.7;
+    height: $width;
+    position: absolute;
+    z-index: 20;
+    left: $width;
+    top: 0;
+  }
+}
+@mixin transform($params){
+  -webkit-transform: $params;
+  -moz-transform: $params;
+  -o-transform: $params;
+  transform: $params;
+}
+
+@mixin animation($duration, $delay, $iteration-count){
+  -webkit-animation-duration: $duration;
+  -webkit-animation-delay: $delay;
+  -webkit-animation-iteration-count: $iteration-count;
+
+  -moz-animation-duration: $duration;
+  -moz-animation-delay: $delay;
+  -moz-animation-iteration-count: $iteration-count;
+
+  -o-animation-duration: $duration;
+  -o-animation-delay: $delay;
+  -o-animation-iteration-count: $iteration-count;
+}

@@ -1,0 +1,49 @@
+*:focus{
+  outline: none !important;
+}
+body{
+  font-family: 'Open Sans', 'Helvetica', sans-serif !important;
+}
+a:hover,
+a:focus{
+  text-decoration: none;
+}
+
+.data-animated{
+  @include animation(0.8s, 0, 1);
+}
+
+.read-more{
+  color: $elam_tertiary;
+  float: right;
+}
+.read-more:after{
+  content: '\f101';
+  font-family: 'FontAwesome', sans-serif;
+  display: inline-block;
+  margin-left: 5px;
+  padding-right: 5px;
+}
+.dropdown-menu{
+  background-color: $elam_primary;
+  border: none;
+  border-radius: 0;
+  padding-top: 0;
+
+  @include animation(0.7s, 0, 1);
+
+  li{
+    a{
+      padding:  8px 20px;
+    }
+  }
+}
+.owl-pagination{
+  .owl-page{
+    span{
+      height: 8px;
+      width: 8px;
+      background-color: $elam_primary;
+    }
+  }
+}

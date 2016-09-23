@@ -43,6 +43,25 @@ a:focus {
   -o-animation-delay: 0;
   -o-animation-iteration-count: 1; }
 
+ul {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.li,
+li {
+  padding-left: 15px;
+  position: relative;
+}
+
+li:before,
+.li:before {
+  content: '\f101';
+  font-family: 'FontAwesome', sans-serif;
+  position: absolute;
+  left: 0;
+}
+
 .read-more {
   color: #fa4b0c;
   float: right; }
@@ -444,19 +463,6 @@ header {
 
 .job-details .job-title {
   margin-bottom: 60px; }
-.job-details ul {
-  list-style: none;
-  padding: 0; }
-.job-details .li,
-.job-details li {
-  padding-left: 15px;
-  position: relative; }
-.job-details li:before,
-.job-details .li:before {
-  content: '\f101';
-  font-family: 'FontAwesome', sans-serif;
-  position: absolute;
-  left: 0; }
 .job-details .job-detail {
   border-left: solid;
   border-left: solid 2px #ddd;
@@ -595,6 +601,15 @@ header {
   top: 0;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 0; }
+
+.envie-de-devenir {
+  padding: 15px 0;
+  background-color: #f8f8f8;
+}
+
+.envie-de-devenir .the-title {
+  font-weight: 700;
+}
 
 .separator {
   display: block;

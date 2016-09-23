@@ -79,7 +79,13 @@
   z-index: 0;
 }
 
-
+.envie-de-devenir {
+  padding: 15px 0;
+  background-color: #f8f8f8;
+  .the-title {
+    font-weight: $font-weight-bold;
+  }
+}
 
 
 .separator{

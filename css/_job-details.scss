@@ -2,23 +2,6 @@
   .job-title{
     margin-bottom: 60px;
   }
-  ul{
-    list-style: none;
-    padding: 0;
-  }
-
-  .li,
-  li{
-    padding-left: 15px;
-    position: relative;
-  }
-  li:before,
-  .li:before{
-    content: '\f101';
-    font-family: 'FontAwesome', sans-serif;
-    position: absolute;
-    left: 0;
-  }
 
   .job-detail{
     border-left: solid;

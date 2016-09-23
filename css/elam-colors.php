@@ -106,8 +106,10 @@ function elam_getColor($colorName = null){
     border-bottom-color: rgb(<?php echo elam_getColor($colorName);?>); }
 .<?php echo $className;?> .job-detail .field-title:before {
     background-color: rgb(<?php echo elam_getColor($colorName);?>); }
-.<?php echo $className;?> .job-detail li:before,
-.<?php echo $className;?> .job-detail .li:before {
+    .<?php echo $className; ?> li:before,
+    .<?php echo $className; ?> .li:before {
     color: rgb(<?php echo elam_getColor($colorName);?>); }
+    .<?php echo $className; ?>.envie-de-devenir .the-title{
+    color: rgb(<?php echo elam_getColor($colorName); ?>);}
     
 <?php endforeach;?>

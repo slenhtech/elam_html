@@ -27,7 +27,7 @@
         <div class="row">
             <div id="grande-liste-metiers" class="col-sm-9">
                 <?php for($i = 1; $i <= 15; $i++):?>
-                    <a href="#" class="row metier">
+                    <a href="page-metier.php" class="row metier">
                         <div class="col-sm-3" data-animate="fadeInUp">
                             <div class="image">
                                 <img src="img/farmer.jpg"image" class="img-responsive"/>

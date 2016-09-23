@@ -31,32 +31,39 @@
                     <div class="row articles">
                         <div class="col-sm-4 article"  data-animate="zoomIn">
                             <div class="the-thumbnail">
-                                <a href="#" title="title"><img src="img/img.jpg" alt="slide 1" class="img-responsive"/></a>
+                                <a href="page-secteurs_details.php" title="title"><img src="img/img.jpg" alt="slide 1"
+                                                                                       class="img-responsive"/></a>
                                 <span class="the-category agri-peche">Agri/pêche</span>
                             </div>
-                            <a href="#" class="the-title" title="title">Lorem ipsum</a>
+                            <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum</a>
                             <div class="the-excerpt">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>
                         <div class="col-sm-4 article"  data-animate="zoomIn">
                             <div class="the-thumbnail">
-                                <a href="#" title="title"><img src="img/6.jpg" alt="slide 1" class="img-responsive"/></a>
+                                <a href="page-secteurs_details.php" title="title"><img src="img/6.jpg" alt="slide 1"
+                                                                                       class="img-responsive"/></a>
                                 <span class="the-category petro-gaz">Petro/Gaz</span>
                             </div>
-                            <a href="#" class="the-title" title="title">Lorem ipsum</a>
+                            <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum</a>
                             <div class="the-excerpt">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi,
+                                cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi
+                                perspiciatis quia quo totam veniam!
                             </div>
                         </div>
-                        <div class="col-sm-4 article"  data-animate="zoomIn">
+                        <div class="col-sm-4 article" data-animate="zoomIn">
                             <div class="the-thumbnail">
-                                <a href="#" title="title"><img src="img/7.jpg" alt="slide 1" class="img-responsive"/></a>
+                                <a href="page-secteurs_details.php" title="title"><img src="img/7.jpg" alt="slide 1"
+                                                                                       class="img-responsive"/></a>
                                 <span class="the-category mines">Mines</span>
                             </div>
-                            <a href="#" class="the-title" title="title">Lorem ipsum</a>
+                            <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum</a>
                             <div class="the-excerpt">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi,
+                                cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi
+                                perspiciatis quia quo totam veniam!
                             </div>
                         </div>
                         <div>

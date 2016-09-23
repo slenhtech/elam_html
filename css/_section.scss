@@ -10,13 +10,30 @@
   text-transform: uppercase;
   font-weight: $font-weight-extra-bold;
   font-size: 25px;
-  margin-left: 50px;
+  margin-left: 15px;
+  padding-left: 15px;
+  box-shadow: -8px 0 $elam_tertiary,
+  -12px 0 #fff,
+  -14px 0 $elam_tertiary;
+
+}
+
+.sub-section-title {
+  text-transform: uppercase;
+  font-weight: $font-weight-extra-bold;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
   padding-left: 15px;
   box-shadow:
           -8px 0 $elam_tertiary,
           -12px 0 #fff,
           -14px 0 $elam_tertiary;
 
+}
+
+.sub-section {
+  margin-bottom: 30px;
 }
 .section-alt-title{
   margin-left: 65px;

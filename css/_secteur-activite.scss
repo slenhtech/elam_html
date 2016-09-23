@@ -9,6 +9,25 @@
   }
 }
 
+#photos-metier {
+  margin-bottom: 30px;
+  position: relative;
+  img {
+    @include transition(0.3s);
+  }
+
+  img:hover {
+    transform: scale(1.2);
+  }
+
+  .owl-pagination {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+  }
+}
+
 .btn.plus{
   color: #fff;
   border-radius: 0;
@@ -290,33 +309,6 @@
     top: 0;
 
     @include animation(1s, 0.5, 1);
-  }
-}
-
-
-#description-table{
-  margin: 40px 0;
-  .row{
-    margin-bottom: 10px;
-
-    .tlabel,
-    .data{
-      padding-top: 5px;
-      padding-bottom: 15px;
-    }
-
-    .tlabel{
-      font-weight: $font-weight-extra-bold;
-      font-size: 16px;
-    }
-  }
-
-  .frame{
-    margin-bottom: 30px;
-    img{
-      height: auto;
-      width: 100%;
-    }
   }
 }
 

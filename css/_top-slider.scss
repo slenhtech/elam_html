@@ -1,4 +1,13 @@
 #top_slider{
+
+  .owl-pagination {
+    .owl-page {
+      span {
+        background-color: $elam_primary !important;
+      }
+    }
+  }
+
   .slide{
     overflow: hidden;
     height: 500px;

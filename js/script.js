@@ -147,7 +147,25 @@ $(carouselEvenements());
 
 /********************************
 
- section temoignages carouosel
+ Photos métier carousel
+
+ ********************************/
+
+var photosMetier = $('#photos-metier').find('.owl-carousel');
+photosMetier.owlCarousel({
+    items: 3,
+    itemsDesktop: [1199, 2],
+    itemsDesktopSmall: [979, 2],
+    itemsTablet: [768, 2],
+    autoPlay: true,
+    lazyLoad: true,
+    slideSpeed: 1000
+});
+
+
+/********************************
+
+ section temoignages carousel
 
  ********************************/
 

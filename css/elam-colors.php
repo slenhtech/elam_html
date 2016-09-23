@@ -67,10 +67,14 @@ function elam_getColor($colorName = null){
     padding-left: 20px;}
 .btn.<?php echo $className;?>{
     background-color: rgb(<?php echo elam_getColor($colorName);?>);}
+    .<?php echo $className; ?> .owl-pagination .owl-page span{
+    background-color: rgb(<?php echo elam_getColor($colorName); ?>) !important;}
 .<?php echo $className;?> .page-title {
     border-left: solid 10px rgb(<?php echo elam_getColor($colorName);?>); }
 .<?php echo $className;?> .section-title {
     box-shadow: -8px 0 rgb(<?php echo elam_getColor($colorName);?>), -12px 0 #fff, -14px 0 rgb(<?php echo elam_getColor($colorName);?>); }
+    .<?php echo $className; ?> .sub-section-title {
+    box-shadow: -8px 0 rgb(<?php echo elam_getColor($colorName); ?>), -12px 0 #fff, -14px 0 rgb(<?php echo elam_getColor($colorName); ?>); }
 .<?php echo $className;?> .btn.plus {
     background-color: rgb(<?php echo elam_getColor($colorName);?>); }
 .<?php echo $className;?> strong {

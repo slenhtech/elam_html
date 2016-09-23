@@ -72,9 +72,9 @@ a:focus {
     padding: 8px 20px; }
 
 .owl-pagination .owl-page span {
-  height: 8px;
-  width: 8px;
-  background-color: #e7378b; }
+  height: 8px !important;
+  width: 8px !important;
+}
 
 header {
   position: relative; }
@@ -155,6 +155,9 @@ header {
   .block-pub a img {
     width: 100%; }
 
+#top_slider .owl-pagination .owl-page span {
+  background-color: #e7378b !important;
+}
 #top_slider .slide {
   overflow: hidden;
   height: 500px;
@@ -256,9 +259,23 @@ header {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 25px;
-  margin-left: 50px;
+  margin-left: 15px;
   padding-left: 15px;
   box-shadow: -8px 0 #fa4b0c, -12px 0 #fff, -14px 0 #fa4b0c; }
+
+.sub-section-title {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  box-shadow: -8px 0 #fa4b0c, -12px 0 #fff, -14px 0 #fa4b0c;
+}
+
+.sub-section {
+  margin-bottom: 30px;
+}
 
 .section-alt-title {
   margin-left: 65px;
@@ -508,6 +525,30 @@ header {
   font-weight: 800; }
 .secteur-activite .text .description {
   text-align: justify; }
+
+#photos-metier {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+#photos-metier img {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#photos-metier img:hover {
+  transform: scale(1.2);
+}
+
+#photos-metier .owl-pagination {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+}
 
 .btn.plus {
   color: #fff;
@@ -759,23 +800,6 @@ header {
     -o-animation-duration: 1s;
     -o-animation-delay: 0.5;
     -o-animation-iteration-count: 1; }
-
-#description-table {
-  margin: 40px 0; }
-  #description-table .row {
-    margin-bottom: 10px; }
-    #description-table .row .tlabel,
-    #description-table .row .data {
-      padding-top: 5px;
-      padding-bottom: 15px; }
-    #description-table .row .tlabel {
-      font-weight: 800;
-      font-size: 16px; }
-  #description-table .frame {
-    margin-bottom: 30px; }
-    #description-table .frame img {
-      height: auto;
-      width: 100%; }
 
 #metiers-du-secteur {
   overflow: hidden; }

@@ -14,7 +14,7 @@
 <?php include_once "inc/search_form.php";?>
 
 
-<?php $secteurClass = 'sante';?>
+<?php $secteurClass = 'agri-peche'; ?>
 
 
 <!-- ============================

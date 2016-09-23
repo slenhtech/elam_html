@@ -14,7 +14,7 @@
 <?php include_once "inc/search_form.php";?>
 
 
-<?php $secteurClass = 'fonction-pub';?>
+<?php $secteurClass = 'agri-peche'; ?>
 
 
 <!-- ============================
@@ -23,10 +23,17 @@
 
 <div class="container <?php echo $secteurClass;?>">
     <div id="main-content">
-                <h1 class="page-title">Chef(fe) d'équipe agricole</h1>
-                <h2 class="section-title">Agriculture et la pêche</h2>
-                <p class="section-alt-title">Exploitation de cultures</p>
-            </div>
+        <h1 class="page-title">Chef(fe) d'équipe agricole</h1>
+        <h2 class="section-title">Agriculture et la pêche</h2>
+        <p class="section-alt-title">Exploitation de cultures</p>
+    </div>
+</div>
+<div id="photos-metier">
+    <div class="owl-carousel">
+        <div class="frame"><img src="img/metier.jpg" class="img-responsive" alt=""></div>
+        <div class="frame"><img src="img/metier2.jpg" class="img-responsive" alt=""></div>
+        <div class="frame"><img src="img/metier4.jpg" class="img-responsive" alt=""></div>
+    </div>
 </div>
 <div id="banner-fsbo" style="background-image: url('img/img.jpg')">
     <div class="container">
@@ -38,45 +45,62 @@
     <div id="main-content">
             <div class="row">
                 <div class="col-sm-9">
-                    <h3 class="section-title">Description</h3>
-                    <div class="row" id="description-table">
+                    <div class="sub-section">
+                        <h3 class="sub-section-title">Que vais-je faire au quotidien ?</h3>
+                        <div class="the-content">
+                            <p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>. Accusantium
+                                ad, adipisci alias aliquid amet, architecto asperiores atque aut earum enim, fugiat
+                                ipsam magnam minus <strong>quibusdam rerum soluta</strong> velit voluptate voluptatibus!
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <ul>
+                                <li>Accusantium ad, adipisci alias aliquid amet</li>
+                                <li>Fugiat ipsam magnam minus quibusdam</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis, cum
+                                cumque enim facere laudantium maiores nam nemo temporibus vero? <strong>Dolore labore
+                                    nam nihil officia perferendis qui quidem tempore voluptatum</strong>.</p>
+                        </div>
+                    </div>
 
-                        <div class="col-sm-4 col-sm-push-8">
-                            <div class="frame">
-                                <img src="img/3.jpg" alt="Photo metier">
+                    <div class="sub-section">
+                        <h3 class="sub-section-title">Quelles seront mes perspectives ?</h3>
+                        <div class="the-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cumque ex
+                                laboriosam maxime perspiciatis quibusdam rerum. Consequatur cum ducimus error hic,
+                                obcaecati, omnis perferendis praesentium quam sint tempora, ullam ut!</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="sub-section">
+                                <h3 class="sub-section-title">Quel diplôme dois-je avoir ?</h3>
+                                <ul>
+                                    <li>Niveau Bac + 5</li>
+                                    <li>Diplôme d'ingénieur</li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-sm-8 col-sm-pull-4">
-                            <div class="row">
-                                <div class="col-sm-6 tlabel">Niveau d'études minimal</div>
-                                <div class="col-sm-6 data">Niveau pré-Bac jusqu'à Bac +3</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6 tlabel">Bac conseillé</div>
-                                <div class="col-sm-6 data">Pas de diplôme obligatoire</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6 tlabel">Selectivité des études</div>
-                                <div class="col-sm-6 data">Non</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6 tlabel">Insertion professionnelle</div>
-                                <div class="col-sm-6 data">N/A</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6 tlabel">Salaire débutant</div>
-                                <div class="col-sm-6 data">Entre 200 000 et 400 000 FCFA</div>
+                        <div class="col-sm-6">
+                            <div class="sub-section">
+                                <h3 class="sub-section-title">Combien vais-je gagner ?</h3>
+                                <ul>
+                                    <li>Entre 500 000 et 2 000 000 FCFA par mois en moyenne</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="the-content">
-                        <p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>. Accusantium ad, adipisci alias aliquid amet, architecto asperiores atque aut earum enim, fugiat ipsam magnam minus <strong>quibusdam rerum soluta</strong> velit voluptate voluptatibus!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="sub-section">
+                        <h3 class="sub-section-title">Quel doit-être mon profil ?</h3>
                         <ul>
-                            <li>Accusantium ad, adipisci alias aliquid amet</li>
-                            <li>Fugiat ipsam magnam minus quibusdam</li>
+                            <li>Etre rigoureux et organisé</li>
+                            <li>Etre à l'aise avec les chiffres</li>
+                            <li>Savoir encadrer une équipe</li>
+                            <li>AImer avoir des responsabilités</li>
+                            <li>Etre un bon communiquant</li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis, cum cumque enim facere laudantium maiores nam nemo temporibus vero? <strong>Dolore labore nam nihil officia perferendis qui quidem tempore voluptatum</strong>.</p>
                     </div>
                 </div>
                 
@@ -84,7 +108,8 @@
                 <!--block publicitaire-->
                 <div class="col-sm-3 block-pub">
                     <a href="#"><img src="img/pub/1.gif" alt="Pub"/></a>
-                    <a href="#"><img src="img/pub/2.png" alt="Pub"/></a>
+                    <a href="#"><img src="img/pub/5.gif" alt="Pub"/></a>
+                    <a href="#"><img src="img/pub/3.gif" alt="Pub"/></a>
                 </div>
             </div>
 

@@ -47,13 +47,11 @@ a:focus {
   list-style: none;
   padding-left: 15px;
 }
-
 .the-content .li,
 .the-content li {
   padding-left: 15px;
   position: relative;
 }
-
 .the-content li:before,
 .the-content .li:before {
   content: '\f101';
@@ -1134,7 +1132,24 @@ footer:after {
  Max-width:  992px
 
  ********************************/
-@media (max-width: 992px) {
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-delay: 0;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-duration: 0.4s;
+    -moz-animation-delay: 0;
+    -moz-animation-iteration-count: 1;
+    -o-animation-duration: 0.4s;
+    -o-animation-delay: 0;
+    -o-animation-iteration-count: 1;
+  }
+
   nav.navbar #main_nav li a {
     font-size: 13px; } }
 /********************************

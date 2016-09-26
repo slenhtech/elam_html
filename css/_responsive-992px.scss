@@ -1,4 +1,23 @@
-@media (max-width: 992px){
-  nav.navbar{ #main_nav{ li{ a{  font-size: 13px;  } } } } }
+@media (min-width: 992px) {
+  .dropdown:hover {
+    .dropdown-menu {
+      display: block;
+      -webkit-animation-name: fadeInUp;
+      animation-name: fadeInUp;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      @include animation(0.4s, 0, 1);
+    }
+  }
+  nav.navbar {
+    #main_nav {
+      li {
+        a {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="BGFITest">
+  <component name="PublishConfigData" serverName="BGFITest" uploadOnCheckin="6b8af15e-8fad-44c6-b5bb-354a74dd6b27">
     <serverData>
       <paths name="AfroKitchen">
         <serverdata>
@@ -122,5 +122,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="Dev Elam" />
   </component>
 </project>

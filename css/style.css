@@ -43,18 +43,30 @@ a:focus {
   -o-animation-delay: 0;
   -o-animation-iteration-count: 1; }
 
-ul {
+.the-content ul {
   list-style: none;
   padding-left: 15px;
 }
 
-.li,
-li {
+.the-content .li,
+.the-content li {
   padding-left: 15px;
   position: relative;
 }
 
-li:before,
+.the-content li:before,
+.the-content .li:before {
+  content: '\f101';
+  font-family: 'FontAwesome', sans-serif;
+  position: absolute;
+  left: 0;
+}
+
+.li {
+  padding-left: 15px;
+  position: relative;
+}
+
 .li:before {
   content: '\f101';
   font-family: 'FontAwesome', sans-serif;

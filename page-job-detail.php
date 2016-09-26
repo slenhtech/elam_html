@@ -55,26 +55,42 @@
                 <div class="detail-field job-detail">
                     <h3 class="field-title">Mission</h3>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, alias blanditiis eaque, eum illo laboriosam molestias officiis, optio perferendis possimus quidem recusandae rem sapiente sequi suscipit veritatis voluptatem! Eum, modi.</p>
-                    <p>Sed malesuada est et mauris feugiat, ut eleifend felis eleifend.Quisque tincidunt justo et risus posuere, non tempor dui pulvinar. Curabitur lectus erat, cursus sed leo ut, feugiat efficitur sem. In interdum mi sit amet velit varius dignissim. Sed arcu quam, cursus sit amet sagittis vitae, dignissim id erat.Nunc ut tempor enim. Nunc feugiat lacus at hendrerit rutrum.Integer dapibus, est et sollicitudin tristique, ex erat consequat eros, in tempus nunc turpis vel tellus. Aliquam id enim ullamcorper, convallis velit vitae, dictum odio.Mauris ullamcorper sem vitae felis pharetra tincidunt.</p>
+                    <div class="the-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, alias blanditiis eaque,
+                            eum illo laboriosam molestias officiis, optio perferendis possimus quidem recusandae rem
+                            sapiente sequi suscipit veritatis voluptatem! Eum, modi.</p>
+                        <p>Sed malesuada est et mauris feugiat, ut eleifend felis eleifend.Quisque tincidunt justo et
+                            risus posuere, non tempor dui pulvinar. Curabitur lectus erat, cursus sed leo ut, feugiat
+                            efficitur sem. In interdum mi sit amet velit varius dignissim. Sed arcu quam, cursus sit
+                            amet sagittis vitae, dignissim id erat.Nunc ut tempor enim. Nunc feugiat lacus at hendrerit
+                            rutrum.Integer dapibus, est et sollicitudin tristique, ex erat consequat eros, in tempus
+                            nunc turpis vel tellus. Aliquam id enim ullamcorper, convallis velit vitae, dictum
+                            odio.Mauris ullamcorper sem vitae felis pharetra tincidunt.</p>
 
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor doloribus error ex exercitationem ipsam ipsum, nobis placeat, porro, quia vel voluptatibus! Aliquam eveniet perferendis quam similique veritatis vitae voluptas.</li>
-                        <li>Cras sem libero, viverra ac libero consectetur, semper semper dolor. Suspendisse potenti.</li>
-                        <li>Duis id odio non massa pulvinar venenatis in a libero. Aliquam convallis</li>
-                        <li>Maecenas varius aliquet erat ut ornare. Pellentesque at mauris mauris.</li>
-                        <li>Duis eget porta nunc. Ut sed diam aliquam diam accumsan viverra vestibulum nec tortor. Mauris consequat placerat molestie. Vivamus pulvinar erat vel lorem hendrerit</li>
-                    </ul>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor doloribus error
+                                ex exercitationem ipsam ipsum, nobis placeat, porro, quia vel voluptatibus! Aliquam
+                                eveniet perferendis quam similique veritatis vitae voluptas.
+                            </li>
+                            <li>Cras sem libero, viverra ac libero consectetur, semper semper dolor. Suspendisse
+                                potenti.
+                            </li>
+                            <li>Duis id odio non massa pulvinar venenatis in a libero. Aliquam convallis</li>
+                            <li>Maecenas varius aliquet erat ut ornare. Pellentesque at mauris mauris.</li>
+                            <li>Duis eget porta nunc. Ut sed diam aliquam diam accumsan viverra vestibulum nec tortor.
+                                Mauris consequat placerat molestie. Vivamus pulvinar erat vel lorem hendrerit
+                            </li>
+                        </ul>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
-                    <ul>
-                        <li>Pellentesque augue felis</li>
-                        <li>Curabitur consectetur viverra felis sit</li>
-                        <li>Aenean sagittis condimentum risus, at suscipit turpis.</li>
-                        <li>Curabitur ac dui blandit, volutpat lacus laoreet</li>
-                    </ul>
-
+                        <ul>
+                            <li>Pellentesque augue felis</li>
+                            <li>Curabitur consectetur viverra felis sit</li>
+                            <li>Aenean sagittis condimentum risus, at suscipit turpis.</li>
+                            <li>Curabitur ac dui blandit, volutpat lacus laoreet</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -93,25 +109,28 @@
                 <div class="detail-field job-detail">
                     <h3 class="field-title">Profil</h3>
 
-                    <ul>
-                        <li>Pellentesque augue felis</li>
-                        <li>Curabitur consectetur viverra felis sit</li>
-                        <li>Aenean sagittis condimentum risus, at suscipit turpis.</li>
-                        <li>Curabitur ac dui blandit, volutpat lacus laoreet</li>
-                    </ul>
+                    <div class="the-content">
+                        <ul>
+                            <li>Pellentesque augue felis</li>
+                            <li>Curabitur consectetur viverra felis sit</li>
+                            <li>Aenean sagittis condimentum risus, at suscipit turpis.</li>
+                            <li>Curabitur ac dui blandit, volutpat lacus laoreet</li>
+                        </ul>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
 
-                    <ul>
-                        <li>Pellentesque augue felis</li>
-                        <li>Curabitur consectetur viverra felis sit</li>
-                        <li>Aenean sagittis condimentum risus, at suscipit turpis.</li>
-                        <li>Curabitur ac dui blandit, volutpat lacus laoreet</li>
-                    </ul>
+                        <ul>
+                            <li>Pellentesque augue felis</li>
+                            <li>Curabitur consectetur viverra felis sit</li>
+                            <li>Aenean sagittis condimentum risus, at suscipit turpis.</li>
+                            <li>Curabitur ac dui blandit, volutpat lacus laoreet</li>
+                        </ul>
 
-                    <p>Duis eget porta nunc. Ut sed diam aliquam diam accumsan viverra vestibulum nec tortor.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, asperiores dolores, dolorum eligendi illo iste minima nam nesciunt non numquam possimus provident recusandae reprehenderit similique tempora voluptates voluptatum? Minus, sunt?</p>
-
+                        <p>Duis eget porta nunc. Ut sed diam aliquam diam accumsan viverra vestibulum nec tortor.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, asperiores dolores,
+                            dolorum eligendi illo iste minima nam nesciunt non numquam possimus provident recusandae
+                            reprehenderit similique tempora voluptates voluptatum? Minus, sunt?</p>
+                    </div>
                 </div>
 
                 <div class="detail-field job-detail">

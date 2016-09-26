@@ -4,7 +4,7 @@
          Top slider
 ============================== -->
 
-<?php /*include_once "inc/top_slider.php";*/ ?>
+<?php include_once "inc/top_slider.php"; ?>
 
 
 <!-- ============================
@@ -74,30 +74,36 @@
                     <div class="col-sm-6">
                         <div class="sub-section">
                             <h3 class="sub-section-title">Quel diplôme dois-je avoir ?</h3>
-                            <ul>
-                                <li>Niveau Bac + 5</li>
-                                <li>Diplôme d'ingénieur</li>
-                            </ul>
+                            <div class="the-content">
+                                <ul>
+                                    <li>Niveau Bac + 5</li>
+                                    <li>Diplôme d'ingénieur</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="sub-section">
                             <h3 class="sub-section-title">Combien vais-je gagner ?</h3>
-                            <ul>
-                                <li>Entre 500 000 et 2 000 000 FCFA par mois en moyenne</li>
-                            </ul>
+                            <div class="the-content">
+                                <ul>
+                                    <li>Entre 500 000 et 2 000 000 FCFA par mois en moyenne</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="sub-section">
                     <h3 class="sub-section-title">Quel doit-être mon profil ?</h3>
-                    <ul>
-                        <li>Etre rigoureux et organisé</li>
-                        <li>Etre à l'aise avec les chiffres</li>
-                        <li>Savoir encadrer une équipe</li>
-                        <li>Aimer avoir des responsabilités</li>
-                        <li>Etre un bon communiquant</li>
-                    </ul>
+                    <div class="the-content">
+                        <ul>
+                            <li>Etre rigoureux et organisé</li>
+                            <li>Etre à l'aise avec les chiffres</li>
+                            <li>Savoir encadrer une équipe</li>
+                            <li>Aimer avoir des responsabilités</li>
+                            <li>Etre un bon communiquant</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 

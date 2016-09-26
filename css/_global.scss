@@ -13,18 +13,32 @@ a:focus{
   @include animation(0.8s, 0, 1);
 }
 
-ul {
-  list-style: none;
-  padding-left: 15px;
+.the-content {
+  ul {
+    list-style: none;
+    padding-left: 15px;
+  }
+
+  .li,
+  li {
+    padding-left: 15px;
+    position: relative;
+  }
+
+  li:before,
+  .li:before {
+    content: '\f101';
+    font-family: 'FontAwesome', sans-serif;
+    position: absolute;
+    left: 0;
+  }
 }
 
-.li,
-li {
+.li {
   padding-left: 15px;
   position: relative;
 }
 
-li:before,
 .li:before {
   content: '\f101';
   font-family: 'FontAwesome', sans-serif;

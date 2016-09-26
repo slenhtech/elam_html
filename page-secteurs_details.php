@@ -56,9 +56,9 @@
                             <div class="label">Contribution au PIB</div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="opportunites" data-toggle="tooltip" title="55%">
-                                <img src="img/progress-bar.png" width="100" alt="progress-bar">
-                                <span class="progress-value" data-animate="fadeInLeft" style="width: 55%"></span>
+                            <div class="opportunites" data-toggle="tooltip" title="2">
+                                <img src="img/progress-bar.png" width="90" alt="progress-bar">
+                                <span class="progress-value" data-animate="fadeInLeft" style="width: 60px"></span>
                             </div>
                             <div class="label">Opportunités d'emploi</div>
                         </div>

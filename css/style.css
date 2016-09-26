@@ -105,6 +105,94 @@ a:focus {
   width: 8px !important;
 }
 
+.liens-rs {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 15px;
+}
+
+.liens-rs ul {
+  list-style: none;
+  padding: 0;
+}
+
+.liens-rs ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.liens-rs ul li a {
+  display: block;
+  width: 36px;
+  padding: 8px 0;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.liens-rs ul li a:hover {
+  border-radius: 0;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.liens-rs ul li a:after {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+.liens-rs ul li a.facebook {
+  background-color: #3b5b9b;
+}
+
+.liens-rs ul li a.facebook:after {
+  content: '\f09a';
+}
+
+.liens-rs ul li a.twitter {
+  background-color: #2daae1;
+}
+
+.liens-rs ul li a.twitter:after {
+  content: '\f099';
+}
+
+.liens-rs ul li a.google-plus {
+  background-color: #f63e28;
+}
+
+.liens-rs ul li a.google-plus:after {
+  content: '\f0d5';
+}
+
+.liens-rs ul li a.linkedin {
+  background-color: #0073b2;
+}
+
+.liens-rs ul li a.linkedin:after {
+  content: '\f0e1';
+}
+
+.liens-rs ul li a.whatsapp {
+  background-color: #5cb557;
+}
+
+.liens-rs ul li a.whatsapp:after {
+  content: '\f232';
+}
+
+.liens-rs:after {
+  display: block;
+  width: 100%;
+}
+
 header {
   position: relative; }
   header #header_head {
@@ -278,6 +366,8 @@ header {
   background-color: rgba(5, 139, 255, 0.7); }
 
 .page-title {
+  display: inline-block;
+  vertical-align: top;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 40px;
@@ -538,7 +628,9 @@ header {
   z-index: 0; }
 
 .secteur-activite .text .the-title {
-  font-weight: 800; }
+  font-weight: 800;
+  margin-bottom: 30px;
+}
 .secteur-activite .text .description {
   text-align: justify; }
 
@@ -579,7 +671,8 @@ header {
   font-weight: normal; }
 
 .chart {
-  margin: 30px 0; }
+  margin: 30px 0 130px;
+}
   .chart .label {
     font-weight: 800;
     color: #a6a6a6;
@@ -587,6 +680,10 @@ header {
     font-size: 14px;
     display: block;
     margin: 5px 0; }
+
+.chart:last-of-type {
+  margin: 30px 0;
+}
 
 #banner-fsbo {
   background-size: cover;
@@ -803,7 +900,7 @@ header {
 .opportunites {
   position: relative;
   overflow: hidden;
-  width: 100px;
+  width: 90px;
   margin: 0 auto;
   background-color: #eee; }
   .opportunites img {
@@ -1122,7 +1219,8 @@ footer:after {
   left: -30px;
   top: 0;
   position: absolute;
-  z-index: -1; }
+  z-index: 0;
+}
 
 #footer_jumbo-input {
   margin-top: 70px; }

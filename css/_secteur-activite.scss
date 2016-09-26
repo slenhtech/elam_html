@@ -2,6 +2,7 @@
   .text{
     .the-title{
       font-weight: $font-weight-extra-bold;
+      margin-bottom: 30px;
     }
     .description{
       text-align: justify;
@@ -41,7 +42,7 @@
   font-weight: normal;
 }
 .chart{
-  margin: 30px 0;
+  margin: 30px 0 130px;
   .label{
     font-weight: $font-weight-extra-bold;
     color: $grey;
@@ -50,6 +51,10 @@
     display: block;
     margin: 5px 0;
   }
+}
+
+.chart:last-of-type {
+  margin: 30px 0;
 }
 
 #banner-fsbo{
@@ -298,7 +303,7 @@
 .opportunites{
   position: relative;
   overflow: hidden;
-  width: 100px;
+  width: 90px;
   margin: 0 auto;
   background-color: #eee;
   

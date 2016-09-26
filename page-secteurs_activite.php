@@ -29,10 +29,25 @@
                 <div class="col-sm-9">
                     <?php
                             $secteur_primaire = array(
-                                "mines" => array("Les mines", 46, "#703629",78) ,
-                                "agri-peche" => array("Agriculture et la pêche", 63, "#73a028",63),
-                                "petro-gaz" => array("Le pétrole et le gaz", 53, "#324f69",82)
+                                "mines" => array("Les mines", 46, "#703629", 2),
+                                "agri-peche" => array("Agriculture et la pêche", 63, "#73a028", 3),
+                                "petro-gaz" => array("Le pétrole et le gaz", 53, "#324f69", 1)
                             );
+
+                    function opportunite($valeur = 1)
+                    {
+                        if ($valeur == 1) {
+                            $return = 'Faibles';
+                        } elseif ($valeur == 2) {
+                            $return = 'Moyennes';
+                        } elseif ($valeur == 3) {
+                            $return = 'Fortes';
+                        } else {
+                            $return = 'Forte';
+                        }
+
+                        return $return;
+                    }
 
 
                             $i = 0;
@@ -89,16 +104,28 @@
                                         <div class="label">Contribution au PIB</div>
                                     </div>
                                     <div class="col-sm-4  <?php echo $class;?>">
-                                        <div class="opportunites" data-toggle="tooltip" title="<?php echo $activite[3];?>%">
-                                            <img src="img/progress-bar.png" width="100" alt="progress-bar">
-                                            <span class="progress-value" data-animate="fadeInLeft" style="width: <?php echo $activite[3];?>%"></span>
+                                        <div class="opportunites" data-toggle="tooltip"
+                                             title="<?php echo $activite[3]; ?>">
+                                            <img src="img/progress-bar.png" width="90" alt="progress-bar">
+                                            <span class="progress-value" data-animate="fadeInLeft"
+                                                  style="width: <?php echo $activite[3] * 30; ?>px"></span>
+                                        </div>
+                                        <div class="label">Croissance du secteur</div>
+                                    </div>
+                                    <div class="col-sm-4  <?php echo $class; ?>">
+                                        <div class="opportunites" data-toggle="tooltip"
+                                             title="<?php echo opportunite($activite[3]); ?>">
+                                            <img src="img/progress-bar.png" width="90" alt="progress-bar">
+                                            <span class="progress-value" data-animate="fadeInLeft"
+                                                  style="width: <?php echo $activite[3] * 30; ?>px"></span>
                                         </div>
                                         <div class="label">Opportunités d'emploi</div>
                                     </div>
-                                    <div class="col-sm-4 text-center">
+                                    <div>
                                         <a href="page-secteurs_details.php" class="btn plus <?php echo $class;?>">En savoir plus</a>
                                     </div>
                                 </div>
+
                                 <?php $i++;
                             endforeach;?>
                         </div>

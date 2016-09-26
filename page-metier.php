@@ -24,6 +24,13 @@
 <div class="container <?php echo $secteurClass;?>">
     <div id="main-content">
         <h1 class="page-title">Chef(fe) d'équipe agricole</h1>
+        <div class="liens-rs">
+            <ul>
+                <li><a href="#" class="facebook"></a></li>
+                <li><a href="#" class="twitter"></a></li>
+                <li><a href="#" class="google-plus"></a></li>
+            </ul>
+        </div>
         <h2 class="section-title">Agriculture et la pêche</h2>
         <p class="section-alt-title">Exploitation de cultures</p>
     </div>

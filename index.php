@@ -29,7 +29,6 @@
 
 <div class="container">
     <div id="main-content">
-
         <div class="row">
             <div class="col-sm-9">
                 <section>
@@ -203,10 +202,8 @@
             </div>
         </div>
     </div>
-</div>
 
 <div id="test-connaissances">
-    <div class="container">
         <div class="row">
             <div class="col-sm-5 title">
                 <span>Tester vos connaissances</span>
@@ -218,11 +215,9 @@
                 <p>Aut deleniti dolorum eaque enim est explicabo illum inventore iste itaque labore</p>
             </div>
         </div>
-    </div>
 </div>
 
 
-<div class="container">
     <div id="main-content">
         <h2 class="page-title">Sponsors & partenaires</h2>
 

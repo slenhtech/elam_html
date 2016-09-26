@@ -34,21 +34,21 @@
         <h2 class="section-title">Agriculture et la pêche</h2>
         <p class="section-alt-title">Exploitation de cultures</p>
     </div>
-</div>
-<div id="photos-metier">
-    <div class="owl-carousel">
-        <div class="frame"><img src="img/metier.jpg" class="img-responsive" alt=""></div>
-        <div class="frame"><img src="img/metier2.jpg" class="img-responsive" alt=""></div>
-        <div class="frame"><img src="img/metier4.jpg" class="img-responsive" alt=""></div>
+    <div id="photos-metier">
+        <div class="owl-carousel">
+            <div class="frame"><img src="img/metier.jpg" class="img-responsive" alt=""></div>
+            <div class="frame"><img src="img/metier2.jpg" class="img-responsive" alt=""></div>
+            <div class="frame"><img src="img/metier4.jpg" class="img-responsive" alt=""></div>
+        </div>
     </div>
-</div>
-<div id="banner-fsbo" style="background-image: url('img/img.jpg')">
-    <div class="container">
-        <div id="text-fsbo">Sponsorisé par la Fondation Sylvia Bongo Ondimba <img src="img/fsbo.png" height="120" alt="Logo FSBO"></div>
+    <div id="banner-fsbo" style="background-image: url('img/img.jpg')">
+        <div class="container">
+            <div id="text-fsbo">Sponsorisé par la Fondation Sylvia Bongo Ondimba <img src="img/fsbo.png" height="120"
+                                                                                      alt="Logo FSBO"></div>
+        </div>
     </div>
-</div>
 
-<div class="container <?php echo $secteurClass; ?>">
+
     <div class="main-content">
         <div class="row">
             <div class="col-sm-9">
@@ -123,10 +123,9 @@
             </div>
         </div>
     </div>
-</div>
 
-<div class="envie-de-devenir  <?php echo $secteurClass; ?>">
-    <div class="container">
+    <div class="envie-de-devenir  <?php echo $secteurClass; ?>">
+
         <div class="row">
             <div class="col-sm-4">
                 <img src="img/metier2.jpg" class="img-responsive" alt="image">
@@ -145,9 +144,7 @@
             </div>
         </div>
     </div>
-</div>
 
-<div class="container <?php echo $secteurClass; ?>">
     <div class="main-content">
 
         <span class="separator"></span>
@@ -234,35 +231,34 @@
 
 
     </div>
-</div>
 
-<div id="test-connaissances">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5 title">
-                <span>Tester vos connaissances</span>
-            </div>
-            <div class="col-sm-2 button">
-                <a href="#" class="fa fa-play-circle-o"></a>
-            </div>
-            <div class="col-sm-5 description">
-                <p>Aut deleniti dolorum eaque enim est explicabo illum inventore iste itaque labore</p>
+    <div id="test-connaissances">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 title">
+                    <span>Tester vos connaissances</span>
+                </div>
+                <div class="col-sm-2 button">
+                    <a href="#" class="fa fa-play-circle-o"></a>
+                </div>
+                <div class="col-sm-5 description">
+                    <p>Aut deleniti dolorum eaque enim est explicabo illum inventore iste itaque labore</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 
-<div class="container <?php echo $secteurClass;?>">
     <div id="main-content">
-            <h3 class="section-title">Sponsors & partenaires</h3>
+        <h3 class="section-title">Sponsors & partenaires</h3>
 
-            <ul id="liste-partenaires">
-                <?php for($i = 1; $i <= 6; $i++):?>
-                <li><a href="#" title="Nom partenaire"><img src="img/sponsors/<?php echo $i;?>.jpg" alt="logo sponsor"/></a></li>
-                <?php endfor; ?>
-            </ul>
-        </div>
+        <ul id="liste-partenaires">
+            <?php for ($i = 1; $i <= 6; $i++): ?>
+                <li><a href="#" title="Nom partenaire"><img src="img/sponsors/<?php echo $i; ?>.jpg"
+                                                            alt="logo sponsor"/></a></li>
+            <?php endfor; ?>
+        </ul>
+    </div>
 </div>
 
 

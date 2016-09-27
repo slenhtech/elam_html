@@ -13,23 +13,18 @@
 
 <?php include_once "inc/search_form.php";?>
 
-<?php $secteurClass = isset($_GET['c']) ? $_GET['c'] :'fonction-pub';?>
 
 <!-- ============================
          section start
 ============================== -->
 
-<div class="container  <?php echo $secteurClass;?>">
+<div class="container elam-blue">
     <h1 class="page-title">Jobs etudiants</h1>
-</div>
 
-<div class="job-banner">
-    <div class="container">
+    <div class="elam-banner elam_blue">
         1 Poste - Emploi - Ref. 00000000 - Publié le 14 septembre 2016
     </div>
-</div>
 
-<div class="container  <?php echo $secteurClass;?>">
     <div id="main-content">
         <div class="row">
             <div class="col-sm-9 job-details">
@@ -95,7 +90,6 @@
             </div>
 
 
-
             <!--block publicitaire-->
             <div class="col-sm-3 block-pub">
                 <a href="#"><img src="img/pub/1.gif" alt="Pub"/></a>
@@ -142,20 +136,16 @@
             </div>
 
 
-
             <!--block publicitaire-->
             <div class="col-sm-3 block-pub">
                 <a href="#"><img src="img/pub/3.gif" alt="Pub"/></a>
                 <a href="#"><img src="img/pub/5.gif" alt="Pub"/></a>
             </div>
         </div>
-
     </div>
-</div>
 
 
-<div class="job-banner">
-    <div class="container">
+    <div class="elam-banner elam_blue">
         <h4 class="the-title">Soyez le premier, juste un clic</h4>
         <a href="#" class="btn plus">Postuler</a>
     </div>

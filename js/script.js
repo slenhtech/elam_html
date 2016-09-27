@@ -265,6 +265,18 @@ $(function () { $("[data-toggle='tooltip']").tooltip(); });
 
 /********************************
 
+ Hyphenator run
+
+ ********************************/
+
+Hyphenator.config({
+    classname: 'the-content'
+});
+Hyphenator.run();
+
+
+/********************************
+
  Dropdown Toggle Clear defaults
 
  ********************************/

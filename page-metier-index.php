@@ -36,7 +36,7 @@
                                 <span class="the-category agri-peche">Agri/pêche</span>
                             </div>
                             <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-excerpt">
+                            <div class="the-content hyphenate">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>
@@ -47,7 +47,7 @@
                                 <span class="the-category petro-gaz">Petro/Gaz</span>
                             </div>
                             <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-excerpt">
+                            <div class="the-content">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi,
                                 cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi
                                 perspiciatis quia quo totam veniam!
@@ -60,7 +60,7 @@
                                 <span class="the-category mines">Mines</span>
                             </div>
                             <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-excerpt">
+                            <div class="the-content">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi,
                                 cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi
                                 perspiciatis quia quo totam veniam!
@@ -96,7 +96,7 @@
                                 <span class="the-category bois">Bois</span>
                             </div>
                             <a href="#" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-excerpt">
+                            <div class="the-content">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>
@@ -106,7 +106,7 @@
                                 <span class="the-category construction">Bâtiment</span>
                             </div>
                             <a href="#" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-excerpt">
+                            <div class="the-content">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>
@@ -116,7 +116,7 @@
                                 <span class="the-category eau-electro">Energies</span>
                             </div>
                             <a href="#" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-excerpt">
+                            <div class="the-content">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>
@@ -149,7 +149,7 @@
                                 <span class="the-category banque">Banque</span>
                             </div>
                             <a href="#" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-excerpt">
+                            <div class="the-content">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>
@@ -159,7 +159,7 @@
                                 <span class="the-category education">éducation</span>
                             </div>
                             <a href="#" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-excerpt">
+                            <div class="the-content">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                                 <span class="the-category sante">Santé</span>
                             </div>
                             <a href="#" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-excerpt">
+                            <div class="the-content">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>

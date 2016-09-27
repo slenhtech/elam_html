@@ -299,7 +299,8 @@ header {
           font-size: 30px;
           font-weight: 700;
           display: block; }
-      #top_slider .slide .container .content .the-excerpt {
+
+#top_slider .slide .container .content .the-content {
         color: #fff; }
       #top_slider .slide .container .content .buttons {
         margin-top: 20px; }
@@ -439,7 +440,8 @@ header {
     color: #393939;
     display: block;
     padding: 10px 5px; }
-  .articles .article .the-excerpt {
+
+.articles .article .the-content {
     text-align: justify;
     font-size: 13px; }
 .articles .article:hover .the-thumbnail img {
@@ -604,20 +606,27 @@ header {
     height: 100%;
     width: 5px; }
 
-.job-banner {
+.elam-banner {
   padding: 50px 0;
   text-align: center;
   color: #fff;
   margin: 30px 0;
-  position: relative;
-  background-image: url("../img/school.png");
-  background-color: #058bff;
   background-blend-mode: multiply; }
-  .job-banner .container {
+
+.elam-banner .container {
     position: relative;
     z-index: 2; }
 
-.job-banner:after {
+.elam-banner .btn.plus {
+  color: #058bff;
+  background-color: #fff !important;
+}
+
+.elam-banner.elam_blue {
+  background-color: #058bff;
+}
+
+.elam-banner:after {
   content: '';
   display: block;
   width: 100%;
@@ -995,7 +1004,8 @@ header {
   font-weight: 800;
   margin: 10px 0;
   font-size: 19px; }
-#carousel_evenements .owl-carousel .the-excerpt {
+
+#carousel_evenements .owl-carousel .the-content {
   text-align: justify; }
 #carousel_evenements .slide-controls {
   overflow: hidden; }

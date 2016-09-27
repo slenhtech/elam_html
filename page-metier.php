@@ -112,6 +112,28 @@
                         </ul>
                     </div>
                 </div>
+
+                <div class="envie-de-devenir  <?php echo $secteurClass; ?>">
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="img/metier2.jpg" class="img-responsive" alt="image">
+                        </div>
+                        <div class="col-sm-8">
+                            <h3 class="the-title">Envie de devenir chef(fe) d'équipe agricole?</h3>
+                            <div class="the-content">
+                                <p>Pour cela, il faut:</p>
+                                <ul>
+                                    <li>Etre titulaire d'un Baccalauréat scientifique</li>
+                                    <li>Le porter candidat au concours d'entrée à l'Institut National Supérieur
+                                        d'Agronomie et de
+                                        Biotechnologies (INSAB) de Franceville
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
@@ -124,26 +146,7 @@
         </div>
     </div>
 
-    <div class="envie-de-devenir  <?php echo $secteurClass; ?>">
 
-        <div class="row">
-            <div class="col-sm-4">
-                <img src="img/metier2.jpg" class="img-responsive" alt="image">
-            </div>
-            <div class="col-sm-8">
-                <h3 class="the-title">Envie de devenir chef(fe) d'équipe agricole?</h3>
-                <div class="the-content">
-                    <p>Pour cela, il faut:</p>
-                    <ul>
-                        <li>Etre titulaire d'un Baccalauréat scientifique</li>
-                        <li>Le porter candidat au concours d'entrée à l'Institut National Supérieur d'Agronomie et de
-                            Biotechnologies (INSAB) de Franceville
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="main-content">
 

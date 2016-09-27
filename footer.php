@@ -113,6 +113,7 @@
 <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
 <script src="js/parallax.min.js"></script>
+<script src="plugins/hyphenator/Hyphenator.js"></script>
 <script src="js/script.js"></script>
 <script src="js/elam-charts.js"></script>
 </body>

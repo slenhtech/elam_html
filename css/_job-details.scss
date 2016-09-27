@@ -55,22 +55,28 @@
   }
 }
 
-.job-banner{
+.elam-banner {
   padding: 50px 0;
   text-align: center;
   color: #fff;
   margin: 30px 0;
-  position: relative;
-  background-image: url("../img/school.png");
-  background-color: $elam_blue;
   background-blend-mode: multiply;
 
   .container{
     position: relative;
     z-index: 2;
   }
+  .btn.plus {
+    color: $elam_blue;
+    background-color: #fff !important;
+  }
 }
-.job-banner:after{
+
+.elam-banner.elam_blue {
+  background-color: $elam_blue;
+}
+
+.elam-banner:after {
   content: '';
   display: block;
   width: 100%;

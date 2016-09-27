@@ -3,7 +3,9 @@
         <div class="container">
             <div class="content">
                 <div class="the-title"><small>Lorem ipsum</small> dolor sit amet</div>
-                <div class="the-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur assumenda dolorum et excepturi facere ipsum</div>
+                <div class="the-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur
+                    assumenda dolorum et excepturi facere ipsum
+                </div>
                 <div class="buttons">
                     <a href="#" class="btn plus">En savoir plus</a>
                     <a href="#" class="btn alt">Acheter la carte</a>
@@ -15,7 +17,9 @@
         <div class="container">
             <div class="content">
                 <div class="the-title"><small>Lorem ipsum</small> dolor sit amet</div>
-                <div class="the-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur assumenda dolorum et excepturi facere ipsum</div>
+                <div class="the-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur
+                    assumenda dolorum et excepturi facere ipsum
+                </div>
                 <div class="buttons">
                     <a href="#" class="btn plus">En savoir plus</a>
                     <a href="#" class="btn alt">Acheter la carte</a>
@@ -27,7 +31,9 @@
         <div class="container">
             <div class="content">
                 <div class="the-title"><small>Lorem ipsum</small> dolor sit amet</div>
-                <div class="the-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur assumenda dolorum et excepturi facere ipsum</div>
+                <div class="the-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur
+                    assumenda dolorum et excepturi facere ipsum
+                </div>
                 <div class="buttons">
                     <a href="#" class="btn plus">En savoir plus</a>
                     <a href="#" class="btn alt">Acheter la carte</a>

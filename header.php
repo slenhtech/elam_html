@@ -27,6 +27,7 @@
 </head>
 <body>
 
+<?php require_once "inc/functions.php"; ?>
 
 <header>
     <div id="header_head" class="container">
@@ -89,6 +90,7 @@
                         </ul>
                     </li>
                     <li><a href="#">Ressources Pédagogiques</a></li>
+                    <li><a href="#">Blog</a></li>
                 </ul>
             </div>
         </div>

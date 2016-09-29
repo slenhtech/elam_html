@@ -13,7 +13,7 @@
 
 <?php include_once "inc/search_form.php";?>
 
-<?php $secteurClass = isset($_GET['c']) ? $_GET['c'] :'fonction-pub';?>
+<?php $secteurClass = isset($_GET['c']) ? $_GET['c'] : 'elam-blue'; ?>
 
 <!-- ============================
          section start
@@ -30,14 +30,14 @@
                     <a href="page-job-detail.php" class="row metier">
                         <div class="col-sm-3" data-animate="fadeInUp">
                             <div class="image">
-                                <img src="img/farmer.jpg"image" class="img-responsive"/>
+                                <img src="img/sponsors/2.jpg" class="img-responsive"/>
                             </div>
                         </div>
 
                         <div class="col-sm-9" data-animate="fadeInUp">
                             <div class="details">
                                 <h4 class="the-title">Responsable de plantation</h4>
-                                <span class="the-category">L'agriculture et la pêche</span>
+                                <span class="the-category">Plainfield Precision</span>
                                 <div class="the-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
                             </div>
                         </div>

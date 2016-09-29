@@ -622,19 +622,96 @@ header {
   background-color: #fff !important;
 }
 
-.elam-banner.elam_blue {
+.elam-banner.elam-blue {
   background-color: #058bff;
 }
 
-.elam-banner:after {
+#jumbo-details {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#jumbo-details .col-sm-6 {
+  padding: 0;
+}
+
+#jumbo-details .image {
+  height: 400px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+#jumbo-details .details {
+  padding: 40px 20px;
+  height: 400px;
+  background-color: #058bff;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+
+#jumbo-details .details .tags .tag {
+  display: inline-block;
+  padding: 5px 20px;
+  border: solid 3px #fff;
+  margin: 5px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+#jumbo-details .details .the-title {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+#jumbo-details .details .meta:before {
+  font-family: 'FontAwesome', sans-serif;
+  display: inline-block;
+  width: 15px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+#jumbo-details .details .meta.employer:before {
+  content: '\f0f2';
+}
+
+#jumbo-details .details .meta.location:before {
+  content: '\f041';
+}
+
+#jumbo-details .details .btn.plus {
+  margin-top: 25px;
+  background: #fff;
+}
+
+#jumbo-details .details:after {
+  content: '\f0f2';
+  font-family: 'FontAwesome', sans-serif;
+  color: #000;
+  position: absolute;
+  z-index: -1;
+  font-size: 400px;
+  opacity: 0.1;
+  left: 100px;
+  top: 50px;
+}
+
+#jumbo-details .details:before {
   content: '';
   display: block;
-  width: 100%;
+  width: 130%;
   height: 100%;
   position: absolute;
-  left: 0;
+  z-index: -1;
+  left: -50px;
   top: 0;
-  z-index: 0; }
+  border-left: solid 10px #fff;
+  -webkit-transform: skew(-10deg, 0deg);
+  -moz-transform: skew(-10deg, 0deg);
+  -o-transform: skew(-10deg, 0deg);
+  transform: skew(-10deg, 0deg);
+}
 
 .secteur-activite .text .the-title {
   font-weight: 800;
@@ -682,6 +759,10 @@ header {
 .chart {
   margin: 30px 0 130px;
 }
+
+.chart .diagram {
+  height: 70px;
+}
   .chart .label {
     font-weight: 800;
     color: #a6a6a6;
@@ -719,7 +800,7 @@ header {
   z-index: 0; }
 
 .envie-de-devenir {
-  padding: 15px 0;
+  padding: 15px;
   background-color: #f8f8f8;
 }
 
@@ -737,9 +818,33 @@ header {
   position: relative; }
   #carousel_metiers .slide {
     position: relative;
+    display: block;
     overflow: hidden;
     width: calc(100% - 20px);
-    margin: 0 auto; }
+    margin: 0 auto;
+    /*.search-icon{
+      position: absolute;
+      left: 45%;
+      right: 45%;
+      top: -50%;
+      z-index: 2;
+      color: #ffffff;
+      display: block;
+      height: 30px;
+      width: 30px;
+      border-radius: 100%;
+      cursor: pointer;
+      @include transition(0.4s);
+    }*/
+    /*.search-icon:after{
+      content: '\f002';
+      font-family: 'FontAwesome', sans-serif;
+      display: block;
+      position: absolute;
+      left: 8px;
+      top: 5px;
+    }*/
+  }
     #carousel_metiers .slide img {
       width: 100%; }
     #carousel_metiers .slide .the-title {
@@ -753,36 +858,12 @@ header {
       z-index: 2;
       text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
       color: #fff;
-      bottom: -50%;
+      top: 40%;
       -webkit-transition: all 0.4s ease-in-out;
       -moz-transition: all 0.4s ease-in-out;
       -ms-transition: all 0.4s ease-in-out;
       -o-transition: all 0.4s ease-in-out;
       transition: all 0.4s ease-in-out; }
-    #carousel_metiers .slide .search-icon {
-      position: absolute;
-      left: 45%;
-      right: 45%;
-      top: -50%;
-      z-index: 2;
-      color: #ffffff;
-      display: block;
-      height: 30px;
-      width: 30px;
-      border-radius: 100%;
-      cursor: pointer;
-      -webkit-transition: all 0.4s ease-in-out;
-      -moz-transition: all 0.4s ease-in-out;
-      -ms-transition: all 0.4s ease-in-out;
-      -o-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out; }
-    #carousel_metiers .slide .search-icon:after {
-      content: '\f002';
-      font-family: 'FontAwesome', sans-serif;
-      display: block;
-      position: absolute;
-      left: 8px;
-      top: 5px; }
   #carousel_metiers .slide:hover .the-title {
     bottom: 30%; }
   #carousel_metiers .slide:hover .search-icon {
@@ -795,7 +876,6 @@ header {
     position: absolute;
     left: 0;
     top: 0;
-    visibility: hidden;
     z-index: 1;
     -webkit-transition: all 0.5 ease-in-out;
     -moz-transition: all 0.5 ease-in-out;
@@ -811,14 +891,12 @@ header {
     width: 20px;
     height: 20px;
     z-index: 2;
-    visibility: hidden;
     border-top: solid 10px #fff;
     border-right: solid 10px #fff;
     box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.4); }
   #carousel_metiers .slide:hover:after {
-    visibility: visible; }
-  #carousel_metiers .slide:hover:before {
-    visibility: visible; }
+    visibility: hidden;
+  }
   #carousel_metiers .carousel-controls {
     text-align: center;
     margin-bottom: 20px; }
@@ -1004,7 +1082,6 @@ header {
   font-weight: 800;
   margin: 10px 0;
   font-size: 19px; }
-
 #carousel_evenements .owl-carousel .the-content {
   text-align: justify; }
 #carousel_evenements .slide-controls {
@@ -1352,7 +1429,13 @@ footer:after {
       font-size: 16px; }
   #description-table .frame img {
     height: auto;
-    width: 100%; } }
+    width: 100%;
+  }
+
+  #jumbo-details .details {
+    overflow: hidden;
+  }
+}
 /********************************
 
  Max-width:  480px

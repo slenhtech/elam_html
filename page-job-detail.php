@@ -18,10 +18,37 @@
          section start
 ============================== -->
 
+<div id="jumbo-details" class="elam-blue">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-6">
+                <div class="details elam-blue">
+                    <div class="tags">
+                        <span class="tag">Jobs</span>
+                        <span class="tag">Stages</span>
+                        <span class="tag">Emplois</span>
+                    </div>
+
+                    <h2 class="the-title">Employé de rayon boucherie H/F</h2>
+
+                    <div class="meta employer">Lorem ipsum dolor sit amet</div>
+                    <div class="meta location">Lorem ipsum dolor, sit amet</div>
+
+                    <a href="#" class="btn plus">Postuler</a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-sm-pull-6">
+                <div class="image" style="background-image: url('img/misc/boucherie.jpg')"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <div class="container elam-blue">
     <h1 class="page-title">Jobs etudiants</h1>
 
-    <div class="elam-banner elam_blue">
+    <div class="elam-banner elam-blue">
         1 Poste - Emploi - Ref. 00000000 - Publié le 14 septembre 2016
     </div>
 
@@ -145,7 +172,7 @@
     </div>
 
 
-    <div class="elam-banner elam_blue">
+    <div class="elam-banner elam-blue">
         <h4 class="the-title">Soyez le premier, juste un clic</h4>
         <a href="#" class="btn plus">Postuler</a>
     </div>

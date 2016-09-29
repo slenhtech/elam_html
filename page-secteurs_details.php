@@ -51,14 +51,29 @@
                     </div>
 
                     <div class="row chart">
-                        <div class="col-sm-5">
-                            <canvas class="elam-chart" data-value="34" data-color="#73a028" height="58" id="agri-peche"></canvas>
+                        <div class="col-sm-4">
+                            <div class="diagram">
+                                <canvas class="elam-chart" data-value="34" data-color="#73a028" height="58"
+                                        id="agri-peche"></canvas>
+                            </div>
                             <div class="label">Contribution au PIB</div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="opportunites" data-toggle="tooltip" title="2">
-                                <img src="img/progress-bar.png" width="90" alt="progress-bar">
-                                <span class="progress-value" data-animate="fadeInLeft" style="width: 60px"></span>
+                        <div class="col-sm-4">
+                            <div class="diagram">
+                                <div class="opportunites" data-toggle="tooltip"
+                                     title="<?php echo opportunite(1, 1); ?>">
+                                    <img src="img/progress-bar-2.png" width="90" alt="progress-bar">
+                                    <span class="progress-value" data-animate="fadeInLeft" style="width: 30px"></span>
+                                </div>
+                            </div>
+                            <div class="label">Croissance du secteur</div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="diagram">
+                                <div class="opportunites" data-toggle="tooltip" title="<?php echo opportunite(2); ?>">
+                                    <img src="img/progress-bar.png" width="90" alt="progress-bar">
+                                    <span class="progress-value" data-animate="fadeInLeft" style="width: 60px"></span>
+                                </div>
                             </div>
                             <div class="label">Opportunités d'emploi</div>
                         </div>
@@ -87,12 +102,11 @@
                         </div>
                         <div class="owl-carousel owl-theme">
                             <?php for($i = 2; $i <=8; $i++):?>
-                                <div class="slide">
+                                <a href="#" class="slide">
                                     <img  class="lazyOwl" data-src="img/<?php echo $i;?>.jpg" src="img/<?php echo $i;?>.jpg" alt="Image">
 
                                     <span class="the-title">Ingénieur agricole</span>
-                                    <span class="search-icon" title="En savoir plus"></span>
-                                </div>
+                                </a>
                             <?php endfor; ?>
                         </div>
                     </div>

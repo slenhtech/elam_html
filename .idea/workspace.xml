@@ -1,65 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43e16c38-6931-4387-90f2-54673823ef72" name="Default" comment="Updates:&#10;- Ajout de la fonction qui converti les valeurs hexadécimales en RGB&#10;- Tous les visuels en fullwidth ont étéretirés pour laisser place à la publicité&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/Hyphenator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/be.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/bn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/el-monoton.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/el-polyton.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/en-us.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/grc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/hy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/kn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/la.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/ml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/nb-no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/or.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/pa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/sr-cyrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/ta.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/te.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hyphenator/patterns/uk.js" />
+    <list default="true" id="43e16c38-6931-4387-90f2-54673823ef72" name="Default" comment="Updates:&#10;- Ajout du plugin Hyphenate.js&#10;&#10;IMPORTANT:  La fonction hyphenate ne pouvant etre appliqué que sur une classe, dans notre cas la classe choisie est .the-content,  la classe .the-excerpt a été remplacée par .the-content sur toutes les pages dans lesquelles elle est utilisée.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_carousel_evenements.scss" afterPath="$PROJECT_DIR$/css/_carousel_evenements.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_job-details.scss" afterPath="$PROJECT_DIR$/css/_job-details.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_section.scss" afterPath="$PROJECT_DIR$/css/_section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_top-slider.scss" afterPath="$PROJECT_DIR$/css/_top-slider.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_responsive-767px.scss" afterPath="$PROJECT_DIR$/css/_responsive-767px.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_secteur-activite.scss" afterPath="$PROJECT_DIR$/css/_secteur-activite.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/elam-colors.php" afterPath="$PROJECT_DIR$/css/elam-colors.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/top_slider.php" afterPath="$PROJECT_DIR$/inc/top_slider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-job-detail.php" afterPath="$PROJECT_DIR$/page-job-detail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-metier-index.php" afterPath="$PROJECT_DIR$/page-metier-index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-job-liste.php" afterPath="$PROJECT_DIR$/page-job-liste.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-metier.php" afterPath="$PROJECT_DIR$/page-metier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-secteurs_activite.php" afterPath="$PROJECT_DIR$/page-secteurs_activite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-secteurs_details.php" afterPath="$PROJECT_DIR$/page-secteurs_details.php" />
     </list>
     <ignored path="elam-html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,13 +37,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page-secteurs_activite.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-secteurs_activite.php">
+      <file leaf-file-name="page-secteurs_details.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-secteurs_details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="92" column="76" selection-start-line="92" selection-start-column="76" selection-end-line="92" selection-end-column="76" />
+            <state relative-caret-position="322">
+              <caret line="136" column="77" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="77" />
               <folding>
-                <marker date="1474897486080" expanded="true" signature="1268:1288" placeholder="..." />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,80 +53,67 @@
       <file leaf-file-name="page-metier.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-metier.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="126" column="77" selection-start-line="126" selection-start-column="77" selection-end-line="126" selection-end-column="77" />
+            <state relative-caret-position="305">
+              <caret line="168" column="48" selection-start-line="168" selection-start-column="48" selection-end-line="168" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-job-detail.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-job-detail.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-job-detail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="134" column="22" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+            <state relative-caret-position="340">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="40" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
+      <file leaf-file-name="_job-details.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/_job-details.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="269" column="34" selection-start-line="269" selection-start-column="34" selection-end-line="269" selection-end-column="34" />
+            <state relative-caret-position="319">
+              <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_carousel_evenements.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/_carousel_evenements.scss">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="197">
+              <caret line="603" column="18" selection-start-line="603" selection-start-column="18" selection-end-line="603" selection-end-column="18" />
+              <folding>
+                <element signature="e#16033#16167#0" expanded="false" />
+                <marker date="1475189397224" expanded="false" signature="16840:16889" placeholder="{...}" />
+                <marker date="1475189397224" expanded="false" signature="17299:17492" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_section.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/_section.scss">
+      <file leaf-file-name="_responsive-767px.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/_responsive-767px.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="852">
+              <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+              <folding>
+                <element signature="e#1840#2155#0" expanded="false" />
+                <element signature="e#2199#2517#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_top-slider.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/_top-slider.scss">
+      <file leaf-file-name="elam-colors.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/elam-colors.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-327">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="172">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -190,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/Elam-theme/css/_section.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Elam-theme/css/_jumbo-input.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/Elam-theme/js/elam-charts.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/Elam-theme/css/_vertical-carousel.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/Elam-theme/css/_variables.scss" />
@@ -214,25 +156,15 @@
         <option value="$PROJECT_DIR$/css/_liste-metiers.scss" />
         <option value="$PROJECT_DIR$/css/_responsive.scss" />
         <option value="$PROJECT_DIR$/css/_responsive-480px.scss" />
-        <option value="$PROJECT_DIR$/css/_responsive-767px.scss" />
         <option value="$PROJECT_DIR$/css/_pub-carte-elam.scss" />
-        <option value="$PROJECT_DIR$/page-job-liste.php" />
         <option value="$PROJECT_DIR$/inc/couleurs-elam.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/css/_variables.scss" />
         <option value="$PROJECT_DIR$/page-metier-liste.php" />
         <option value="$PROJECT_DIR$/css/_global.scss" />
         <option value="$PROJECT_DIR$/css/_responsive-992px.scss" />
-        <option value="$PROJECT_DIR$/css/_secteur-activite.scss" />
-        <option value="$PROJECT_DIR$/page-secteurs_details.php" />
         <option value="$PROJECT_DIR$/css/_jumbo-input.scss" />
-        <option value="$PROJECT_DIR$/page-secteurs_activite.php" />
         <option value="$PROJECT_DIR$/css/style.scss" />
-        <option value="$PROJECT_DIR$/css/elam-colors.php" />
         <option value="$PROJECT_DIR$/css/_liens-rs.scss" />
-        <option value="$PROJECT_DIR$/css/_job-details.scss" />
-        <option value="$PROJECT_DIR$/page-job-detail.php" />
-        <option value="$PROJECT_DIR$/page-metier.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/inc/top_slider.php" />
         <option value="$PROJECT_DIR$/css/_top-slider.scss" />
@@ -241,6 +173,18 @@
         <option value="$PROJECT_DIR$/css/_carousel_evenements.scss" />
         <option value="$PROJECT_DIR$/page-metier-index.php" />
         <option value="$PROJECT_DIR$/css/_section.scss" />
+        <option value="$PROJECT_DIR$/inc/functions.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/page-secteurs_activite.php" />
+        <option value="$PROJECT_DIR$/page-secteurs_details.php" />
+        <option value="$PROJECT_DIR$/css/_secteur-activite.scss" />
+        <option value="$PROJECT_DIR$/page-metier.php" />
+        <option value="$PROJECT_DIR$/page-job-liste.php" />
+        <option value="$PROJECT_DIR$/css/_responsive-767px.scss" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/elam-colors.php" />
+        <option value="$PROJECT_DIR$/css/_job-details.scss" />
+        <option value="$PROJECT_DIR$/page-job-detail.php" />
       </list>
     </option>
   </component>
@@ -303,8 +247,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -568,7 +512,8 @@
       <workItem from="1474882830530" duration="12176000" />
       <workItem from="1474907931517" duration="1726000" />
       <workItem from="1474930795035" duration="14000" />
-      <workItem from="1474969981573" duration="2238000" />
+      <workItem from="1474969981573" duration="3922000" />
+      <workItem from="1475180709044" duration="8736000" />
     </task>
     <task id="LOCAL-00001" summary="Activation des liens vers les secteurs d'activités&#10;">
       <created>1474622557567</created>
@@ -619,22 +564,28 @@
       <option name="project" value="LOCAL" />
       <updated>1474907254521</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updates:&#10;- Ajout du plugin Hyphenate.js&#10;&#10;IMPORTANT:  La fonction hyphenate ne pouvant etre appliqué que sur une classe, dans notre cas la classe choisie est .the-content,  la classe .the-excerpt a été remplacée par .the-content sur toutes les pages dans lesquelles elle est utilisée.">
+      <created>1474973169327</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1474973169327</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266110000" />
+    <option name="totallyTimeSpent" value="276530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1992288" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22365038" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22622108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31824234" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31733334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -647,6 +598,7 @@
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31824234" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -676,7 +628,8 @@
     <MESSAGE value="Ajout de l'ouverture du menu de navigation en :hover" />
     <MESSAGE value="Bug fix&#10;- Background rose sur le champ de recherche qui débordait légèrement&#10;- Remplacement du diagramme pour les ooprtunités d'emploi&#10;- Ajout des liens de partage vers les RS" />
     <MESSAGE value="Updates:&#10;- Ajout de la fonction qui converti les valeurs hexadécimales en RGB&#10;- Tous les visuels en fullwidth ont étéretirés pour laisser place à la publicité&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates:&#10;- Ajout de la fonction qui converti les valeurs hexadécimales en RGB&#10;- Tous les visuels en fullwidth ont étéretirés pour laisser place à la publicité&#10;" />
+    <MESSAGE value="Updates:&#10;- Ajout du plugin Hyphenate.js&#10;&#10;IMPORTANT:  La fonction hyphenate ne pouvant etre appliqué que sur une classe, dans notre cas la classe choisie est .the-content,  la classe .the-excerpt a été remplacée par .the-content sur toutes les pages dans lesquelles elle est utilisée." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates:&#10;- Ajout du plugin Hyphenate.js&#10;&#10;IMPORTANT:  La fonction hyphenate ne pouvant etre appliqué que sur une classe, dans notre cas la classe choisie est .the-content,  la classe .the-excerpt a été remplacée par .the-content sur toutes les pages dans lesquelles elle est utilisée." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -685,7 +638,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-includes/js/jquery/jquery-migrate.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Elam-theme/footer.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Elam-theme/css/_top-slider.scss" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Elam-theme/plugins/owl-carousel/owl.transitions.css" />
@@ -732,13 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_responsive-767px.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_responsive-480px.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -760,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-job-liste.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_liste-metiers.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-423">
@@ -778,20 +716,6 @@
     <entry file="file://$PROJECT_DIR$/img/school.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="1193" column="13" selection-start-line="1193" selection-start-column="13" selection-end-line="1193" selection-end-column="13" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/_mixins.scss">
@@ -812,20 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_secteur-activite.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="305" column="10" selection-start-line="305" selection-start-column="10" selection-end-line="305" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-secteurs_details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -858,25 +768,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/elam-colors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_job-details.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
+        <state relative-caret-position="1870">
           <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
           <folding />
         </state>
@@ -886,16 +780,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="4573">
           <caret line="269" column="34" selection-start-line="269" selection-start-column="34" selection-end-line="269" selection-end-column="34" />
           <folding />
         </state>
@@ -903,26 +793,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="952">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/_carousel_evenements.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="510">
           <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-job-detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="134" column="22" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -931,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,25 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-metier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="126" column="77" selection-start-line="126" selection-start-column="77" selection-end-line="126" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-secteurs_activite.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="92" column="76" selection-start-line="92" selection-start-column="76" selection-end-line="92" selection-end-column="76" />
-          <folding>
-            <marker date="1474897486080" expanded="true" signature="1268:1288" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -965,13 +825,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="50" column="73" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/_top-slider.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327">
+        <state relative-caret-position="595">
           <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding />
         </state>
@@ -979,9 +838,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/_section.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+        <state relative-caret-position="309">
+          <caret line="82" column="43" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-secteurs_activite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-secteurs_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="136" column="77" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-job-liste.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-metier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="168" column="48" selection-start-line="168" selection-start-column="48" selection-end-line="168" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_responsive-767px.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding>
+            <element signature="e#1840#2155#0" expanded="false" />
+            <element signature="e#2199#2517#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="603" column="18" selection-start-line="603" selection-start-column="18" selection-end-line="603" selection-end-column="18" />
+          <folding>
+            <element signature="e#16033#16167#0" expanded="false" />
+            <marker date="1475189397224" expanded="false" signature="16840:16889" placeholder="{...}" />
+            <marker date="1475189397224" expanded="false" signature="17299:17492" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_secteur-activite.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_job-details.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/elam-colors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-job-detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

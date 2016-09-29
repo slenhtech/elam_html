@@ -130,5 +130,8 @@ function hex2rgb($colour)
     color: rgb(<?php echo elam_getColor($colorName);?>); }
     .<?php echo $className; ?>.envie-de-devenir .the-title{
     color: rgb(<?php echo elam_getColor($colorName); ?>);}
+    .<?php echo $className; ?>#jumbo-details .details {background-color: rgb(<?php echo elam_getColor($colorName); ?>);}
+    .<?php echo $className; ?>#jumbo-details .details .btn.plus {color: rgb(<?php echo elam_getColor($colorName); ?>); }
+    .<?php echo $className; ?>#jumbo-details .details:before {background-color: rgb(<?php echo elam_getColor($colorName); ?>);}
     
 <?php endforeach;?>

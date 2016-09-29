@@ -34,22 +34,6 @@
                                 "petro-gaz" => array("Le pétrole et le gaz", 53, "#324f69", 1)
                             );
 
-                    function opportunite($valeur = 1)
-                    {
-                        if ($valeur == 1) {
-                            $return = 'Faibles';
-                        } elseif ($valeur == 2) {
-                            $return = 'Moyennes';
-                        } elseif ($valeur == 3) {
-                            $return = 'Fortes';
-                        } else {
-                            $return = 'Forte';
-                        }
-
-                        return $return;
-                    }
-
-
                             $i = 0;
                             foreach ($secteur_primaire as $class => $activite):
                                 $push = (bool)( $i % 2 ) ? ' col-md-push-7 ' : '';
@@ -100,25 +84,35 @@
 
                                 <div class="row chart">
                                     <div class="col-sm-4">
-                                        <canvas class="elam-chart" data-value="<?php echo $activite[1];?>" data-color="<?php echo $activite[2];?>" height="70" id="<?php echo $class;?>"></canvas>
+                                        <div class="diagram">
+                                            <canvas class="elam-chart" data-value="<?php echo $activite[1]; ?>"
+                                                    data-color="<?php echo $activite[2]; ?>" height="70"
+                                                    id="<?php echo $class; ?>"></canvas>
+                                        </div>
+
                                         <div class="label">Contribution au PIB</div>
                                     </div>
                                     <div class="col-sm-4  <?php echo $class;?>">
-                                        <div class="opportunites" data-toggle="tooltip"
-                                             title="<?php echo $activite[3]; ?>">
-                                            <img src="img/progress-bar.png" width="90" alt="progress-bar">
+                                        <div class="diagram">
+                                            <div class="opportunites" data-toggle="tooltip"
+                                                 title="<?php echo opportunite($activite[3], 1); ?>">
+                                                <img src="img/progress-bar-2.png" width="90" alt="progress-bar">
                                             <span class="progress-value" data-animate="fadeInLeft"
                                                   style="width: <?php echo $activite[3] * 30; ?>px"></span>
+                                            </div>
                                         </div>
                                         <div class="label">Croissance du secteur</div>
                                     </div>
                                     <div class="col-sm-4  <?php echo $class; ?>">
-                                        <div class="opportunites" data-toggle="tooltip"
-                                             title="<?php echo opportunite($activite[3]); ?>">
-                                            <img src="img/progress-bar.png" width="90" alt="progress-bar">
+                                        <div class="diagram">
+                                            <div class="opportunites" data-toggle="tooltip"
+                                                 title="<?php echo opportunite($activite[3]); ?>">
+                                                <img src="img/progress-bar.png" width="90" alt="progress-bar">
                                             <span class="progress-value" data-animate="fadeInLeft"
                                                   style="width: <?php echo $activite[3] * 30; ?>px"></span>
+                                            </div>
                                         </div>
+
                                         <div class="label">Opportunités d'emploi</div>
                                     </div>
                                     <div>

@@ -155,7 +155,7 @@
         <!-- ============================
                  liste des métiers
         ============================== -->
-        <h3 class="section-title">Formations liées</h3>
+        <h3 class="section-title">Autres métiers du secteur</h3>
 
         <div class="row">
             <div class="col-sm-9">
@@ -166,23 +166,23 @@
                     </div>
                     <div class="owl-carousel owl-theme">
                         <?php for ($i = 2; $i <= 8; $i++): ?>
-                            <div class="slide">
+                            <a href="page-metier.php" class="slide">
                                 <img class="lazyOwl" data-src="img/<?php echo $i; ?>.jpg"
                                      src="img/<?php echo $i; ?>.jpg" alt="Image">
 
                                 <span class="the-title">Ingénieur agricole</span>
                                 <span class="search-icon" title="En savoir plus"></span>
-                            </div>
+                            </a>
                         <?php endfor; ?>
                     </div>
                 </div>
 
                 <div id="metiers-du-secteur">
-                    <h3 class="section-title">Autres metiers liés</h3>
+                    <h3 class="section-title">Formations liées</h3>
 
                     <div id="liste_metiers" class="row">
                         <?php for ($i = 0; $i < 10; $i++): ?>
-                            <div class="col-xs-6 col-sm-4"><a href="page-metier-par-secteur.php">Mécanicien(ne)
+                            <div class="col-xs-6 col-sm-4"><a href="page-formation.php">Mécanicien(ne)
                                     agricole</a></div>
                         <?php endfor; ?>
                     </div>

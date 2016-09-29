@@ -43,6 +43,10 @@
 }
 .chart{
   margin: 30px 0 130px;
+
+  .diagram {
+    height: 70px;
+  }
   .label{
     font-weight: $font-weight-extra-bold;
     color: $grey;
@@ -85,7 +89,7 @@
 }
 
 .envie-de-devenir {
-  padding: 15px 0;
+  padding: 15px;
   background-color: #f8f8f8;
   .the-title {
     font-weight: $font-weight-bold;
@@ -105,6 +109,7 @@
 
   .slide{
     position: relative;
+    display: block;
     overflow: hidden;
     width: calc(100% - 20px);
     margin: 0 auto;
@@ -124,10 +129,10 @@
       z-index: 2;
       text-shadow: 0 1px 3px rgba(#000, 0.4);
       color: #fff;
-      bottom: -50%;
+      top: 40%;
       @include transition(0.4s);
     }
-    .search-icon{
+    /*.search-icon{
       position: absolute;
       left: 45%;
       right: 45%;
@@ -140,15 +145,15 @@
       border-radius: 100%;
       cursor: pointer;
       @include transition(0.4s);
-    }
-    .search-icon:after{
+    }*/
+    /*.search-icon:after{
       content: '\f002';
       font-family: 'FontAwesome', sans-serif;
       display: block;
       position: absolute;
       left: 8px;
       top: 5px;
-    }
+    }*/
   }
   .slide:hover{
     .the-title{
@@ -166,7 +171,6 @@
     position: absolute;
     left: 0;
     top: 0;
-    visibility: hidden;
     z-index: 1;
     @include transition(0.5);
   }
@@ -179,16 +183,12 @@
     width: 20px;
     height: 20px;
     z-index: 2;
-    visibility: hidden;
     border-top: solid 10px #fff;
     border-right: solid 10px #fff;
     box-shadow: 0 5px 5px -2px rgba(#000, 0.4);
   }
   .slide:hover:after{
-    visibility: visible;
-  }
-  .slide:hover:before{
-    visibility: visible;
+    visibility: hidden;
   }
 
   .carousel-controls{

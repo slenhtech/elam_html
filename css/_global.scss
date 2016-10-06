@@ -57,20 +57,24 @@ a:focus{
   margin-left: 5px;
   padding-right: 5px;
 }
-.dropdown-menu{
-  background-color: $elam_primary;
-  border: none;
-  border-radius: 0;
-  padding-top: 0;
 
-  @include animation(0.7s, 0, 1);
+.navbar {
+  .dropdown-menu {
+    background-color: $elam_primary;
+    border: none;
+    border-radius: 0;
+    padding-top: 0;
 
-  li{
-    a{
-      padding:  8px 20px;
+    @include animation(0.7s, 0, 1);
+
+    li {
+      a {
+        padding: 8px 20px;
+      }
     }
   }
 }
+
 .owl-pagination{
   .owl-page{
     span{

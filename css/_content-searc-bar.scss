@@ -1,0 +1,40 @@
+.content-search-bar {
+  border: solid 2px #a1a1a1;
+  padding: 5px;
+  margin: 20px 0;
+
+  .input-field {
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+  }
+  .input-field::-webkit-input-placeholder {
+    text-align: center;
+    font-weight: $font-weight-bold;
+  }
+  .input-field:-ms-input-placeholder {
+    text-align: center;
+    font-weight: $font-weight-bold;
+  }
+  .input-field::-moz-placeholder {
+    text-align: center;
+    font-weight: $font-weight-bold;
+  }
+  .submit-btn {
+    display: block;
+    width: 100%;
+    border: none;
+    background: none;
+    height: 40px;
+    border-left: solid 2px #a1a1a1;
+    cursor: pointer;
+    text-align: center;
+  }
+  .submit-btn:after {
+    content: '\f0da';
+    font-family: 'FontAwesome', sans-serif;
+    color: #a1a1a1;
+    font-size: 18px;
+  }
+}

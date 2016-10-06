@@ -396,3 +396,66 @@
     }
   }
 }
+
+.search-filter {
+  padding: 10px 0;
+  position: relative;
+  .the-label {
+    display: block;
+    font-weight: $font-weight-bold;
+    margin: 10px 0;
+    font-size: 16px;
+
+  }
+  .btn-block {
+    background: none;
+    padding: 10px;
+    text-align: left;
+    border: solid 2px #a1a1a1;
+    color: #a1a1a1;
+    font-weight: $font-weight-bold;
+    position: relative;
+  }
+  .btn-block:after {
+    content: '\f0d7';
+    font-family: 'FontAwesome', sans-serif;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .dropdown-menu {
+    width: 100%;
+    border-radius: 0;
+    top: 90%;
+    box-shadow: none;
+    border: solid 2px #a1a1a1;
+    border-top: none;
+    padding: 0;
+
+    li {
+
+      .filtre {
+        padding: 10px 20px 10px 50px;
+        cursor: pointer;
+        position: relative;
+      }
+      .filtre::before {
+        font-family: 'FontAwesome', sans-serif;
+        display: inline-block;
+        padding: 0 20px;
+        position: absolute;
+        left: 0;
+      }
+      .filtre.asc {
+        box-shadow: 0 -1px 0 rgba(#000, 0.1);
+      }
+      .filtre.asc::before {
+        content: '\f160';
+      }
+      .filtre.dsc::before {
+        content: '\f161';
+      }
+    }
+  }
+}

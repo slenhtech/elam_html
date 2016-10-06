@@ -71,7 +71,7 @@
             <div class="collapse navbar-collapse" id="main_nav">
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Accueil</a></li>
-                    <li><a href="#">Etudes</a></li>
+                    <li><a href="page-etablissement.php">Etudes</a></li>
                     <li class="dropdown">
                         <a href="page-metier-index.php" class="dropdown-toggle" data-toggle="dropdown">Métiers<b class="caret"></b></a>
                         <ul class="dropdown-menu">

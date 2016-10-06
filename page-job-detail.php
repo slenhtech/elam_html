@@ -4,14 +4,14 @@
          Top slider
 ============================== -->
 
-<?php include_once "inc/top_slider.php";?>
+<?php /*include_once "inc/top_slider.php";*/ ?>
 
 
 <!-- ============================
          search form
 ============================== -->
 
-<?php include_once "inc/search_form.php";?>
+<?php /*include_once "inc/search_form.php";*/ ?>
 
 
 <!-- ============================
@@ -47,6 +47,19 @@
 
 <div class="container elam-blue">
     <h1 class="page-title">Jobs etudiants</h1>
+
+    <div class="content-search-bar">
+        <form action="#" method="get">
+            <div class="row">
+                <div class="col-sm-11">
+                    <input type="search" class="input-field" placeholder="Rechercher un job etudiant"/>
+                </div>
+                <div class="col-sm-1">
+                    <button type="submit" class="submit-btn"></button>
+                </div>
+            </div>
+        </form>
+    </div>
 
     <div class="elam-banner elam-blue">
         1 Poste - Emploi - Ref. 00000000 - Publié le 14 septembre 2016

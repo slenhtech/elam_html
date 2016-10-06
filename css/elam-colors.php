@@ -16,10 +16,11 @@ $elam_secteurs_activite = array(
     "sante"             => "light_purple",
     "telecom"           => "dark_purple",
     "tourisme"          => "dark_green",
-    "support"           => "dark_green",
+    "support" => "blue_alt",
     "elam-primary"      => "elam_primary",
     "elam-secondary"    => "elam_secondary",
     "elam-tertiary"     => "elam_tertiary",
+    "elam-green" => "elam_green",
     "elam-blue"         => "elam_blue"
 );
 function elam_getColor($colorName = null){
@@ -38,6 +39,7 @@ function elam_getColor($colorName = null){
         "marine_blue"   => "50, 79, 105",
         "dark_blue"     => "18, 50, 114",
         "blue"          => "12, 120, 193",
+        "blue_alt" => "11, 119, 193",
         "wood"          => "170, 122, 95",
         "turquoise"     => "0, 173, 167",
         "yellow"        => "215, 156, 28",
@@ -47,7 +49,8 @@ function elam_getColor($colorName = null){
         "elam_blue"     => "5, 139, 255",
         "nav_hover"     => "181, 12, 117",
         "elam_secondary"    => "122, 30, 127",
-        "elam_tertiary"     => "250, 75, 12"
+        "elam_tertiary" => "250, 75, 12",
+        "elam_green" => "3, 186, 0"
     );
     if(array_key_exists($colorName, $elam_colors_code)){
         return $elam_colors_code[$colorName];
@@ -119,9 +122,9 @@ function hex2rgb($colour)
     border: solid 4px rgb(<?php echo elam_getColor($colorName);?>); }
 .<?php echo $className;?> .opportunites .progress-value {
     background-color: rgb(<?php echo elam_getColor($colorName);?>); }
-.<?php echo $className;?> #grande-liste-metiers .metier .image:after {
+    #grande-liste-metiers .<?php echo $className; ?>.metier .image:after {
     background-color: rgb(<?php echo elam_getColor($colorName);?>); }
-.<?php echo $className;?> #grande-liste-metiers .metier .details .the-category {
+    #grande-liste-metiers .<?php echo $className; ?>.metier .details .the-category {
     border-bottom-color: rgb(<?php echo elam_getColor($colorName);?>); }
 .<?php echo $className;?> .job-detail .field-title:before {
     background-color: rgb(<?php echo elam_getColor($colorName);?>); }
@@ -133,5 +136,8 @@ function hex2rgb($colour)
     .<?php echo $className; ?>#jumbo-details .details {background-color: rgb(<?php echo elam_getColor($colorName); ?>);}
     .<?php echo $className; ?>#jumbo-details .details .btn.plus {color: rgb(<?php echo elam_getColor($colorName); ?>); }
     .<?php echo $className; ?>#jumbo-details .details:before {background-color: rgb(<?php echo elam_getColor($colorName); ?>);}
+    .<?php echo $className; ?>.elam-banner .btn.plus {color: rgb(<?php echo elam_getColor($colorName); ?>);}
+    .<?php echo $className; ?>.elam-banner {background-color: rgb(<?php echo elam_getColor($colorName); ?>);}
+    .<?php echo $className; ?> #block-googlemap map-details ul li:before { color: rgb(<?php echo elam_getColor($colorName); ?>);}
     
 <?php endforeach;?>

@@ -115,6 +115,8 @@
 <script src="js/parallax.min.js"></script>
 <script src="plugins/hyphenator/Hyphenator.js"></script>
 <script src="js/script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWH0gnkmcUQRNoEADxlBESFildpLxOwRU&callback=initMap" async
+        defer></script>
 <script src="js/elam-charts.js"></script>
 </body>
 </html>

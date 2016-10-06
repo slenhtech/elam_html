@@ -58,21 +58,23 @@
                                             <div class="vert-carousel">
                                                 <div class="col-md-8">
                                                     <div class="main-carousel owl-carousel owl-theme">
-                                                        <div class="slide"><span class="placeholder">slide 1</span></div>
-                                                        <div class="slide"><span class="placeholder">slide 2</span></div>
-                                                        <div class="slide"><span class="placeholder">slide 3</span></div>
-                                                        <div class="slide"><span class="placeholder">slide 4</span></div>
-                                                        <div class="slide"><span class="placeholder">slide 5</span></div>
+                                                        <div class="slide"
+                                                             style="background-image: url('img/metier3.jpg')"></div>
+                                                        <div class="slide"
+                                                             style="background-image: url('img/metier.jpg')"></div>
+                                                        <div class="slide"
+                                                             style="background-image: url('img/metier4.jpg')"></div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 thumbnails">
+                                                <div class="col-md-4 hidden-xs hidden-sm thumbnails">
                                                     <span class="control prev fa fa-angle-up"></span>
                                                     <ul class="thumbs">
-                                                        <li class="thumb"><span class="placeholder">slide 1</span></li>
-                                                        <li class="thumb"><span class="placeholder">slide 2</span></li>
-                                                        <li class="thumb"><span class="placeholder">slide 3</span></li>
-                                                        <li class="thumb"><span class="placeholder">slide 4</span></li>
-                                                        <li class="thumb"><span class="placeholder">slide 5</span></li>
+                                                        <li class="thumb"
+                                                            style="background-image: url('img/metier3.jpg')"></li>
+                                                        <li class="thumb"
+                                                            style="background-image: url('img/metier.jpg')"></li>
+                                                        <li class="thumb"
+                                                            style="background-image: url('img/metier4.jpg')"></li>
                                                     </ul>
                                                     <span class="control next fa fa-angle-down"></span>
                                                 </div>
@@ -83,7 +85,7 @@
 
 
                                 <div class="row chart">
-                                    <div class="col-sm-4">
+                                    <div class="col-xs-6 col-md-4">
                                         <div class="diagram">
                                             <canvas class="elam-chart" data-value="<?php echo $activite[1]; ?>"
                                                     data-color="<?php echo $activite[2]; ?>" height="70"
@@ -92,7 +94,7 @@
 
                                         <div class="label">Contribution au PIB</div>
                                     </div>
-                                    <div class="col-sm-4  <?php echo $class;?>">
+                                    <div class="col-xs-6 col-md-4  <?php echo $class; ?>">
                                         <div class="diagram">
                                             <div class="opportunites" data-toggle="tooltip"
                                                  title="<?php echo opportunite($activite[3], 1); ?>">
@@ -103,7 +105,7 @@
                                         </div>
                                         <div class="label">Croissance du secteur</div>
                                     </div>
-                                    <div class="col-sm-4  <?php echo $class; ?>">
+                                    <div class="col-xs-6 col-md-4  <?php echo $class; ?>">
                                         <div class="diagram">
                                             <div class="opportunites" data-toggle="tooltip"
                                                  title="<?php echo opportunite($activite[3]); ?>">
@@ -115,7 +117,7 @@
 
                                         <div class="label">Opportunités d'emploi</div>
                                     </div>
-                                    <div>
+                                    <div class="col-xs-12">
                                         <a href="page-secteurs_details.php" class="btn plus <?php echo $class;?>">En savoir plus</a>
                                     </div>
                                 </div>

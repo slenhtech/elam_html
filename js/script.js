@@ -42,7 +42,7 @@ var secteur_activite = jQuery('.secteur-activite'),
     secteur_activite_main_carousel = secteur_activite.find('.main-carousel');
 
 secteur_activite_main_carousel.owlCarousel({
-    items: 1,
+    singleItem: true,
     autoPlay: true,
     lazyLoad: true
 });
@@ -273,6 +273,37 @@ Hyphenator.config({
     classname: 'the-content'
 });
 Hyphenator.run();
+
+
+/********************************
+
+ Google map
+
+ ********************************/
+
+
+function initMap() {
+    var etablissement = {lat: 0.397249, lng: 9.445977};
+    var map = new google.maps.Map(document.getElementById('googlemap'), {
+        center: etablissement,
+        zoom: 18
+    });
+
+    var marker = new google.maps.Marker({
+        position: etablissement,
+        map: map,
+        animation: google.maps.Animation.DROP,
+        title: 'Emplacement de l\'établissement'
+    });
+}
+
+
+
+
+
+
+
+
 
 
 /********************************

@@ -83,7 +83,7 @@ a:focus {
   margin-left: 5px;
   padding-right: 5px; }
 
-.dropdown-menu {
+.navbar .dropdown-menu {
   background-color: #e7378b;
   border: none;
   border-radius: 0;
@@ -97,7 +97,8 @@ a:focus {
   -o-animation-duration: 0.7s;
   -o-animation-delay: 0;
   -o-animation-iteration-count: 1; }
-  .dropdown-menu li a {
+
+.navbar .dropdown-menu li a {
     padding: 8px 20px; }
 
 .owl-pagination .owl-page span {
@@ -447,15 +448,11 @@ header {
 .articles .article:hover .the-thumbnail img {
   transform: scale(1.3); }
 
-.vert-carousel .placeholder {
-  background-color: #a1a1a1;
-  color: #fff;
-  font-weight: 800;
-  text-align: center;
-  display: block; }
-.vert-carousel .main-carousel .placeholder {
+.vert-carousel .slide {
   height: 300px;
-  line-height: 300px; }
+  background-position: center center;
+  background-size: cover;
+}
 .vert-carousel .thumbnails {
   height: 300px;
   overflow: hidden;
@@ -493,9 +490,11 @@ header {
     list-style: none;
     padding: 0; }
     .vert-carousel .thumbnails .thumbs .thumb {
-      cursor: pointer; }
-      .vert-carousel .thumbnails .thumbs .thumb span {
-        box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.5); }
+      cursor: pointer;
+      height: 100px;
+      background-position: center center;
+      background-size: cover;
+    }
   .vert-carousel .thumbnails .placeholder {
     height: 100px;
     line-height: 100px; }
@@ -545,7 +544,7 @@ header {
   position: absolute;
   left: 0;
   top: 0;
-  opacity: 0.6; }
+}
 #grande-liste-metiers .metier .details {
   background-color: #f2f2f2;
   padding: 15px; }
@@ -618,12 +617,7 @@ header {
     z-index: 2; }
 
 .elam-banner .btn.plus {
-  color: #058bff;
   background-color: #fff !important;
-}
-
-.elam-banner.elam-blue {
-  background-color: #058bff;
 }
 
 #jumbo-details {
@@ -711,6 +705,74 @@ header {
   -moz-transform: skew(-10deg, 0deg);
   -o-transform: skew(-10deg, 0deg);
   transform: skew(-10deg, 0deg);
+}
+
+#block-googlemap {
+  position: relative;
+  margin: 20px 0;
+}
+
+#block-googlemap #googlemap {
+  height: 500px;
+}
+
+#block-googlemap #map-details {
+  position: absolute;
+  display: inline-block;
+  height: 200px;
+  width: 250px;
+  z-index: 2;
+  left: 30px;
+  top: 150px;
+  bottom: 50%;
+  background-color: #fff;
+  padding: 20px;
+  font-size: 13px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#block-googlemap #map-details .section-title {
+  font-size: 15px;
+}
+
+#block-googlemap #map-details ul {
+  padding: 0;
+  list-style: none;
+}
+
+#block-googlemap #map-details ul li:before {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  font-family: 'FontAwesome', sans-serif;
+}
+
+#block-googlemap #map-details ul .address:before {
+  content: '\f041';
+}
+
+#block-googlemap #map-details ul .tel:before {
+  content: '\f095';
+}
+
+#block-googlemap #map-details ul .mail:before {
+  content: '\f0e0';
+}
+
+#block-googlemap #map-details ul .coo:before {
+  content: '\f192';
+}
+
+#block-googlemap #map-details ul .web:before {
+  content: '\f0ac';
+}
+
+#block-googlemap #map-details:hover {
+  opacity: 0.3;
 }
 
 .secteur-activite .text .the-title {
@@ -1060,6 +1122,119 @@ header {
       #liste-partenaires li a img {
         width: 100%; }
 
+.search-filter {
+  padding: 10px 0;
+  position: relative;
+}
+
+.search-filter .the-label {
+  display: block;
+  font-weight: 700;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.search-filter .btn-block {
+  background: none;
+  padding: 10px;
+  text-align: left;
+  border: solid 2px #a1a1a1;
+  color: #a1a1a1;
+  font-weight: 700;
+  position: relative;
+}
+
+.search-filter .btn-block:after {
+  content: '\f0d7';
+  font-family: 'FontAwesome', sans-serif;
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.search-filter .dropdown-menu {
+  width: 100%;
+  border-radius: 0;
+  top: 90%;
+  box-shadow: none;
+  border: solid 2px #a1a1a1;
+  border-top: none;
+  padding: 0;
+}
+
+.search-filter .dropdown-menu li .filtre {
+  padding: 10px 20px 10px 50px;
+  cursor: pointer;
+  position: relative;
+}
+
+.search-filter .dropdown-menu li .filtre::before {
+  font-family: 'FontAwesome', sans-serif;
+  display: inline-block;
+  padding: 0 20px;
+  position: absolute;
+  left: 0;
+}
+
+.search-filter .dropdown-menu li .filtre.asc {
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.search-filter .dropdown-menu li .filtre.asc::before {
+  content: '\f160';
+}
+
+.search-filter .dropdown-menu li .filtre.dsc::before {
+  content: '\f161';
+}
+
+.content-search-bar {
+  border: solid 2px #a1a1a1;
+  padding: 5px;
+  margin: 20px 0;
+}
+
+.content-search-bar .input-field {
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+.content-search-bar .input-field::-webkit-input-placeholder {
+  text-align: center;
+  font-weight: 700;
+}
+
+.content-search-bar .input-field:-ms-input-placeholder {
+  text-align: center;
+  font-weight: 700;
+}
+
+.content-search-bar .input-field::-moz-placeholder {
+  text-align: center;
+  font-weight: 700;
+}
+
+.content-search-bar .submit-btn {
+  display: block;
+  width: 100%;
+  border: none;
+  background: none;
+  height: 40px;
+  border-left: solid 2px #a1a1a1;
+  cursor: pointer;
+  text-align: center;
+}
+
+.content-search-bar .submit-btn:after {
+  content: '\f0da';
+  font-family: 'FontAwesome', sans-serif;
+  color: #a1a1a1;
+  font-size: 18px;
+}
+
 #carousel_evenements .owl-carousel .the-date {
   padding: 15px;
   width: 100px;
@@ -1318,7 +1493,7 @@ footer:after {
 
  ********************************/
 @media (min-width: 992px) {
-  .dropdown:hover .dropdown-menu {
+  .navbar .dropdown:hover .dropdown-menu {
     display: block;
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;

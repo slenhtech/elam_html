@@ -1,16 +1,8 @@
 .vert-carousel{
-  .placeholder{
-    background-color: #a1a1a1;
-    color: #fff;
-    font-weight: $font-weight-extra-bold;
-    text-align: center;
-    display: block;
-  }
-  .main-carousel{
-    .placeholder{
-      height: 300px;
-      line-height: 300px;
-    }
+  .slide {
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
   }
 
   .thumbnails{
@@ -52,9 +44,9 @@
 
       .thumb{
         cursor: pointer;
-        span{
-          box-shadow: inset 0 -2px 2px rgba(#000, 0.5);
-        }
+        height: 100px;
+        background-position: center center;
+        background-size: cover;
       }
     }
     .placeholder{

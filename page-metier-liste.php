@@ -19,15 +19,65 @@
          section start
 ============================== -->
 
-<div class="container  <?php echo $secteurClass;?>">
+<div class="container">
     <div id="main-content">
         <h1 class="page-title">Métiers</h1>
         <h2 class="section-title">500 Métiers</h2>
 
+        <div class="search-filter">
+            <span class="the-label">Trier par :</span>
+            <div class="dropdown">
+                <button type="button" class="btn-block" id="dropdownMenu1" data-toggle="dropdown">Sélectionnez</button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li>
+                        <a class="filtre asc" href="#">Par parametre 1</a>
+                    </li>
+                    <li>
+                        <a class="filtre dsc" href="#">Par parametre 1</a>
+                    </li>
+                    <li>
+                        <a class="filtre asc" href="#">Par parametre 2</a>
+                    </li>
+                    <li>
+                        <a class="filtre dsc" href="#">Par parametre 2</a>
+                    </li>
+                    <li>
+                        <a class="filtre asc" href="#">Par parametre 3</a>
+                    </li>
+                    <li>
+                        <a class="filtre dsc" href="#">Par parametre 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
         <div class="row">
             <div id="grande-liste-metiers" class="col-sm-9">
-                <?php for($i = 1; $i <= 15; $i++):?>
-                    <a href="page-metier.php" class="row metier">
+                <?php
+                $elam_secteurs_activite = array(
+                    "mines",
+                    "agri-peche",
+                    "petro-gaz",
+                    "bois",
+                    "construction",
+                    "eau-electro",
+                    "industrie-manu",
+                    "banque",
+                    "education",
+                    "fonction-pub",
+                    "logistique",
+                    "sante",
+                    "telecom",
+                    "tourisme",
+                    "support",
+                    "elam-primary",
+                    "elam-secondary",
+                    "elam-tertiary",
+                    "elam-green",
+                    "elam-blue"
+                );
+                foreach ($elam_secteurs_activite as $secteurClass):?>
+                    <a href="page-metier.php" class="row <?php echo $secteurClass; ?> metier">
                         <div class="col-sm-3" data-animate="fadeInUp">
                             <div class="image">
                                 <img src="img/farmer.jpg"image" class="img-responsive"/>
@@ -42,7 +92,7 @@
                             </div>
                         </div>
                     </a>
-                <?php endfor; ?>
+                <?php endforeach; ?>
             </div>
 
 

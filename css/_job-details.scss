@@ -67,13 +67,8 @@
     z-index: 2;
   }
   .btn.plus {
-    color: $elam_blue;
     background-color: #fff !important;
   }
-}
-
-.elam-banner.elam-blue {
-  background-color: $elam_blue;
 }
 
 #jumbo-details {
@@ -157,4 +152,63 @@
     @include transform(skew(-10deg, 0deg));
   }
 
+}
+
+#block-googlemap {
+  position: relative;
+  margin: 20px 0;
+
+  #googlemap {
+    height: 500px;
+  }
+
+  #map-details {
+    position: absolute;
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    z-index: 2;
+    left: 30px;
+    top: 150px;
+    bottom: 50%;
+    background-color: #fff;
+    padding: 20px;
+    font-size: 13px;
+    @include transition(0.5s);
+
+    .section-title {
+      font-size: 15px;
+    }
+    ul {
+      padding: 0;
+      list-style: none;
+      li {
+      }
+      li:before {
+        display: inline-block;
+        width: 30px;
+        text-align: center;
+        font-family: 'FontAwesome', sans-serif;
+      }
+      .address:before {
+        content: '\f041';
+      }
+      .tel:before {
+        content: '\f095';
+      }
+      .mail:before {
+        content: '\f0e0';
+      }
+      .coo:before {
+        content: '\f192';
+      }
+      .web:before {
+        content: '\f0ac';
+      }
+    }
+  }
+
+  #map-details:hover {
+    opacity: 0.3;
+  }
 }

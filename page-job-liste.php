@@ -28,17 +28,35 @@
             <div id="grande-liste-metiers" class="col-sm-9">
                 <?php for($i = 1; $i <= 15; $i++):?>
                     <a href="page-job-detail.php" class="row metier">
-                        <div class="col-sm-3" data-animate="fadeInUp">
+                        <div class="col-sm-4" data-animate="fadeInUp">
                             <div class="image">
                                 <img src="img/sponsors/2.jpg" class="img-responsive"/>
                             </div>
                         </div>
 
-                        <div class="col-sm-9" data-animate="fadeInUp">
+                        <div class="col-sm-8" data-animate="fadeInUp">
                             <div class="details">
-                                <h4 class="the-title">Responsable de plantation</h4>
-                                <span class="the-category">Plainfield Precision</span>
-                                <div class="the-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                                <h4 class="the-title">Responsable de plantation <span class="badge">4 postes</span></h4>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <span class="the-employer">Plainfield Precision</span>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <div class="the-location">Port-Gentil</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <div class="the-date">Publié le: 06/10/2016</div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <div class="job-types">
+                                            <span class="job-type cdd">CDD</span>
+                                            <span class="job-type cdi">CDI</span>
+                                            <span class="job-type stage">Stage</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </a>

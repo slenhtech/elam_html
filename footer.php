@@ -107,6 +107,9 @@
             </div>
         </div>
     </div>
+    <div class="back-to-top">
+        <button class="btn fa fa-chevron-up"></button>
+    </div>
 </footer>
 <script src="js/jquery-1.12.4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.min.js"></script>

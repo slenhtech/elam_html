@@ -31,7 +31,30 @@ top_slider.owlCarousel({
 });
 
 
+/********************************
 
+ back to top button
+
+ ********************************/
+var btt = $('.back-to-top');
+btt.on('click', function () {
+    $('html, body').animate({
+        scrollTop: 0
+    }, 800, function () {
+        btt.fadeOut();
+    });
+})
+$(window).on('scroll', function () {
+    var self = $(this),
+        height = self.height(),
+        top = self.scrollTop();
+
+    if (top > height) {
+        if (!btt.is(':visible')) {
+            btt.fadeIn();
+        }
+    }
+})
 
 /********************************
 

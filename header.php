@@ -29,7 +29,7 @@
 
 <?php require_once "inc/functions.php"; ?>
 
-<header>
+<header id="elam_header">
     <div id="header_head" class="container">
         <div class="row">
             <div id="header_logo" class="col-sm-4">

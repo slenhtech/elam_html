@@ -114,7 +114,7 @@ function hex2rgb($colour)
     background-color: rgb(<?php echo elam_getColor($colorName);?>); }
 .<?php echo $className;?> #section_temoignages .slide .the-content:before {
     border-bottom: solid 25px rgb(<?php echo elam_getColor($colorName);?>); }
-.<?php echo $className;?> #metiers-du-secteur #liste_metiers a:before {
+    .<?php echo $className; ?> #liste_metiers a:before {
     color: rgb(<?php echo elam_getColor($colorName);?>); }
 .<?php echo $className;?> #description-table .row {
     border-bottom: solid 3px rgba(<?php echo elam_getColor($colorName);?>, 0.5); }

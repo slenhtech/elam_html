@@ -169,13 +169,28 @@
                 <div class="detail-field job-detail">
                     <h3 class="field-title">Formations offertes</h3>
 
-                    <div id="liste_metiers" class="row">
-                        <?php for ($i = 0; $i < 10; $i++): ?>
-                            <div class="col-xs-6 col-sm-4"><a href="page-formation.php">Lorem ipsum dolor sit amet,</a>
-                            </div>
-                        <?php endfor; ?>
+                    <div id="liste_metiers">
+                        <div class="row">
+                            <?php for ($i = 0; $i < 10; $i++): ?>
+                                <div class="col-xs-6 col-sm-4"><a href="page-formation.php">Lorem ipsum dolor sit
+                                        amet</a>
+                                </div>
+                            <?php endfor; ?>
+                        </div>
+                        <div id="liste_suite" class="row collapse">
+                            <?php for ($i = 0; $i < 20; $i++): ?>
+                                <div class="col-xs-6 col-sm-4"><a href="page-formation.php">Lorem ipsum dolor sit
+                                        amet</a>
+                                </div>
+                            <?php endfor; ?>
+                        </div>
+                        <button data-toggle="collapse"
+                                data-parent="#liste_metiers"
+                                href="#liste_suite"
+                                class="btn plus">
+                            Lire la suite
+                        </button>
                     </div>
-
                 </div>
             </div>
 

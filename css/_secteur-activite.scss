@@ -330,20 +330,20 @@
     margin: 20px 0;
     float: right;
   }
+}
 
-  #liste_metiers{
+#liste_metiers {
 
-    a{
-      display: block;
-      padding: 10px 15px 10px 25px;
-      color: $grey;
-    }
-    a:before{
-      content: '\f005';
-      font-family: 'FontAwesome', sans-serif;
-      float: left;
-      padding-right: 8px;
-    }
+  a {
+    display: block;
+    padding: 10px 15px 10px 25px;
+    color: $grey;
+  }
+  a:before {
+    content: '\f005';
+    font-family: 'FontAwesome', sans-serif;
+    float: left;
+    padding-right: 8px;
   }
 }
 #test-connaissances{

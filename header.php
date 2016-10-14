@@ -71,7 +71,14 @@
             <div class="collapse navbar-collapse" id="main_nav">
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Accueil</a></li>
-                    <li><a href="page-etablissement.php">Etudes</a></li>
+                    <li class="dropdown">
+                        <a href="page-metier-index.php" class="dropdown-toggle" data-toggle="dropdown">études<b
+                                class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="page-etablissement.php">Etablissement</a></li>
+                            <li><a href="page-formation-liste.php">Toutes les formations</a></li>
+                        </ul>
+                    </li>
                     <li class="dropdown">
                         <a href="page-metier-index.php" class="dropdown-toggle" data-toggle="dropdown">Métiers<b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -81,7 +88,8 @@
                             <li><a href="#">Portrait de pros</a></li>
                             <li><a href="#">Test Métiers</a></li>
                         </ul>
-                    </li><li class="dropdown">
+                    </li>
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Job, Stages & Emploi<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="page-job-liste.php">Job</a></li>

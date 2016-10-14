@@ -37,6 +37,9 @@
 
     .image{
       position: relative;
+      .img-responsive {
+        margin: auto;
+      }
     }
 
     .image:after{
@@ -73,6 +76,7 @@
       //Job
 
       .the-employer,
+      .the-school,
       .the-location,
       .the-date {
         color: #777;
@@ -91,8 +95,12 @@
       .the-date:before {
         content: '\f073';
       }
+      .the-school:before {
+        content: '\f19d';
+      }
 
       .the-employer:before,
+      .the-school:before,
       .the-location:before,
       .the-date:before {
         font-family: 'FontAwesome', sans-serif;

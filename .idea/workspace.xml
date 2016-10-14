@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43e16c38-6931-4387-90f2-54673823ef72" name="Default" comment="Updates:&#10;- Ajout du bouton &quot;Back to top&quot;&#10;- Ajout d'un accordéon dans la page établissement">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page-formation.php" />
+    <list default="true" id="43e16c38-6931-4387-90f2-54673823ef72" name="Default" comment="Updates:&#10;- Ajout de la page formation">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/misc/boucherie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page-formation-liste.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_liste-metiers.scss" afterPath="$PROJECT_DIR$/css/_liste-metiers.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_responsive-767px.scss" afterPath="$PROJECT_DIR$/css/_responsive-767px.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
     </list>
     <ignored path="elam-html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,20 +54,18 @@
       <file leaf-file-name="page-etablissement.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-etablissement.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="2856">
               <caret line="168" column="16" selection-start-line="168" selection-start-column="16" selection-end-line="193" selection-end-column="22" />
-              <folding>
-                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-formation.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-formation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-formation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="133" column="69" selection-start-line="133" selection-start-column="69" selection-end-line="133" selection-end-column="69" />
+            <state relative-caret-position="2346">
+              <caret line="138" column="61" selection-start-line="138" selection-start-column="61" selection-end-line="138" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -71,8 +74,40 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="1377">
+              <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-formation-liste.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-formation-liste.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_liste-metiers.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/_liste-metiers.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="141" selection-end-column="1" />
+              <folding>
+                <element signature="e#620#2838#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_responsive-767px.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/_responsive-767px.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/Elam-theme/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Elam-theme/page-secteurs_activite.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Elam-theme/css/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/Elam-theme/css/_carousel_metiers.scss" />
@@ -131,9 +165,7 @@
         <option value="$PROJECT_DIR$/page-metier-liste.php" />
         <option value="$PROJECT_DIR$/css/_job-details.scss" />
         <option value="$PROJECT_DIR$/css/_vertical-carousel.scss" />
-        <option value="$PROJECT_DIR$/css/_responsive-767px.scss" />
         <option value="$PROJECT_DIR$/page-secteurs_activite.php" />
-        <option value="$PROJECT_DIR$/css/_liste-metiers.scss" />
         <option value="$PROJECT_DIR$/page-job-liste.php" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/footer.php" />
@@ -141,9 +173,12 @@
         <option value="$PROJECT_DIR$/css/_secteur-activite.scss" />
         <option value="$PROJECT_DIR$/css/elam-colors.php" />
         <option value="$PROJECT_DIR$/page-etablissement.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/css/_header.scss" />
         <option value="$PROJECT_DIR$/page-formation.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/page-formation-liste.php" />
+        <option value="$PROJECT_DIR$/css/_liste-metiers.scss" />
+        <option value="$PROJECT_DIR$/css/_responsive-767px.scss" />
       </list>
     </option>
   </component>
@@ -206,7 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -223,20 +257,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="elam_html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elam_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elam_html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,6 +294,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,16 +330,16 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\elam-html\wp-content\themes\Elam-theme\js" />
-      <recent name="C:\wamp\www\elam-html\wp-content\themes\Elam-theme\plugins" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp\www\elam_html" />
       <recent name="C:\wamp\www\elam_html\img\sponsors" />
       <recent name="C:\wamp\www\elam_html\img\misc" />
       <recent name="C:\wamp\www\elam_html\plugins\hyphenator" />
       <recent name="C:\wamp\www\elam_html\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\elam-html\wp-content\themes\Elam-theme\js" />
+      <recent name="C:\wamp\www\elam-html\wp-content\themes\Elam-theme\plugins" />
     </key>
   </component>
   <component name="RunManager">
@@ -440,7 +461,9 @@
       <workItem from="1475833073287" duration="1186000" />
       <workItem from="1475836757128" duration="599000" />
       <workItem from="1475933952629" duration="1882000" />
-      <workItem from="1475935913951" duration="278000" />
+      <workItem from="1475935913951" duration="470000" />
+      <workItem from="1476366505777" duration="2409000" />
+      <workItem from="1476448481678" duration="1470000" />
     </task>
     <task id="LOCAL-00001" summary="Activation des liens vers les secteurs d'activités&#10;">
       <created>1474622557567</created>
@@ -519,38 +542,45 @@
       <option name="project" value="LOCAL" />
       <updated>1475935370908</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updates:&#10;- Ajout de la page formation">
+      <created>1475936221343</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1475936221343</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310901000" />
+    <option name="totallyTimeSpent" value="314972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1992288" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2673522" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27377892" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31466666" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31733334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31466666" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31733334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -580,7 +610,8 @@
     <MESSAGE value="Updates:&#10;- Page-job-detail: Ajout du haut de page&#10;- Page-metier: les block Formations liées et Autres métiers ont échangé leur position&#10;- Page-secteur_activite: Ajout du graph pour  &quot;Croissance du secteur&quot; + L'alignement des labels endessous des graphs a été ajusté&#10;- Page-secteur_details: Même changements que Page-secteur_activite&#10;" />
     <MESSAGE value="Updates:&#10;- La couleur de la classe &quot;support&quot; a été corrigée&#10;- Ajout de la carte google map sur la page établissement&#10;- Ajout de la barre de recherche sur la page établissement&#10;- Ajout du filtre de recher sur la page metier-liste&#10;- Page secteurs_activite. Les images du carousel ont été ajustées&#10;&#10;" />
     <MESSAGE value="Updates:&#10;- Ajout du bouton &quot;Back to top&quot;&#10;- Ajout d'un accordéon dans la page établissement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates:&#10;- Ajout du bouton &quot;Back to top&quot;&#10;- Ajout d'un accordéon dans la page établissement" />
+    <MESSAGE value="Updates:&#10;- Ajout de la page formation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates:&#10;- Ajout de la page formation" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -589,10 +620,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Elam-theme/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Elam-theme/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Elam-theme/css/_secteur-activite.scss" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Elam-theme/css/_responsive.scss" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Elam-theme/page-secteurs_details.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Elam-theme/css/_section.scss" />
     <entry file="file://$PROJECT_DIR$/fonts/male-female/_flaticon.scss">
@@ -652,11 +679,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/couleurs-elam.php" />
-    <entry file="file://$PROJECT_DIR$/img/school.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -811,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_responsive-767px.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="168" column="3" selection-start-line="168" selection-start-column="3" selection-end-line="168" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-secteurs_activite.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
@@ -829,13 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_liste-metiers.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -883,28 +891,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-etablissement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="2856">
           <caret line="168" column="16" selection-start-line="168" selection-start-column="16" selection-end-line="193" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page-formation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="133" column="69" selection-start-line="133" selection-start-column="69" selection-end-line="133" selection-end-column="69" />
+        <state relative-caret-position="2346">
+          <caret line="138" column="61" selection-start-line="138" selection-start-column="61" selection-end-line="138" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/school-bnw.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/school.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/misc/afram.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sponsors/logo-afram.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-formation-liste.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_liste-metiers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="141" selection-end-column="1" />
+          <folding>
+            <element signature="e#620#2838#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_responsive-767px.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
           <folding />
         </state>
       </provider>

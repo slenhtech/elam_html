@@ -508,6 +508,10 @@ a:focus {
 
 #grande-liste-metiers .metier .image {
   position: relative; }
+
+#grande-liste-metiers .metier .image .img-responsive {
+  margin: auto;
+}
 #grande-liste-metiers .metier .image:after {
   content: '';
   display: block;
@@ -533,6 +537,7 @@ a:focus {
   #grande-liste-metiers .metier .details .the-description {
     color: #393939; }
   #grande-liste-metiers .metier .details .the-employer,
+  #grande-liste-metiers .metier .details .the-school,
   #grande-liste-metiers .metier .details .the-location,
   #grande-liste-metiers .metier .details .the-date {
     color: #777;
@@ -547,7 +552,12 @@ a:focus {
     content: '\f041'; }
   #grande-liste-metiers .metier .details .the-date:before {
     content: '\f073'; }
+
+#grande-liste-metiers .metier .details .the-school:before {
+  content: '\f19d';
+}
   #grande-liste-metiers .metier .details .the-employer:before,
+  #grande-liste-metiers .metier .details .the-school:before,
   #grande-liste-metiers .metier .details .the-location:before,
   #grande-liste-metiers .metier .details .the-date:before {
     font-family: 'FontAwesome', sans-serif;
@@ -1525,7 +1535,13 @@ footer:after {
     width: 100%; }
 
   #jumbo-details .details {
-    overflow: hidden; } }
+    overflow: hidden;
+  }
+
+  #grande-liste-metiers .metier .image {
+    margin-bottom: 10px;
+  }
+}
 /********************************
 
  Max-width:  480px

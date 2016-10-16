@@ -98,7 +98,7 @@
                         </ul>
                     </li>
                     <li><a href="#">Ressources Pédagogiques</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="page-blog.php">Blog</a></li>
                 </ul>
             </div>
         </div>

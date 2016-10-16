@@ -1,36 +1,40 @@
 #carousel_evenements{
   .owl-carousel{
-    .the-date{
-      padding: 15px;
-      width: 100px;
-      height: 100px;
-      text-align: center;
-      margin: 15px 0;
-      border:  solid 3px $elam_primary;
-      border-radius: 3px;
+    .slide {
+      color: #000;
+      .the-date {
+        padding: 15px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        margin: 15px 0;
+        border: solid 3px $elam_primary;
+        border-radius: 3px;
 
-      .the-day{
-        display: block;
-        font-weight: $font-weight-extra-bold;
-        font-size: 30px;
-        color: $elam_secondary;
+        .the-day {
+          display: block;
+          font-weight: $font-weight-extra-bold;
+          font-size: 30px;
+          color: $elam_secondary;
+        }
+        .the-month {
+          display: block;
+          font-weight: $font-weight-extra-bold;
+          color: #000;
+          text-transform: uppercase;
+        }
       }
-      .the-month{
-        display: block;
+
+      .the-title {
         font-weight: $font-weight-extra-bold;
-        color: #000;
-        text-transform: uppercase;
+        margin: 10px 0;
+        font-size: 19px;
+      }
+      .the-content {
+        text-align: justify;
       }
     }
 
-    .the-title{
-      font-weight: $font-weight-extra-bold;
-      margin: 10px 0;
-      font-size: 19px;
-    }
-    .the-content {
-      text-align: justify;
-    }
   }
   .slide-controls{
     overflow: hidden;

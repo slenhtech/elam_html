@@ -1,0 +1,96 @@
+.block-pub {
+  a {
+    margin: 15px 0;
+    display: block;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.sidebar {
+  .pub {
+    margin: 15px 0;
+    display: block;
+    text-align: center;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .widget {
+    margin-bottom: 10px;
+    padding: 10px;
+
+    .section-title {
+      text-transform: none;
+      margin-bottom: 20px;
+    }
+
+    .search_bar {
+      background-color: $elam_secondary;
+      padding: 15px 10px;
+      overflow: hidden;
+
+      .input-field {
+        border: solid 1px #fff;
+        background-color: #ddd;
+        padding: 5px 8px;
+        width: 85%;
+        display: block;
+        float: left;
+      }
+      .submit-btn {
+        display: inline-block;
+        float: right;
+        width: 15%;
+        padding: 5px 0;
+        color: #fff;
+        border: solid 1px #fff;
+        border-left: none;
+        background-color: $elam_primary;
+        cursor: pointer;
+      }
+    }
+
+    .select-widget {
+      margin: 10px 0;
+      width: 100%;
+      border: solid 2px #ddd;
+      padding: 5px 8px;
+    }
+
+    .posts-widget {
+      .tabs {
+        padding: 0 15px;
+        margin-bottom: 10px;
+        .tab {
+          text-align: center;
+          color: #fff;
+          background-color: $elam_primary;
+          font-size: 12px;
+          padding: 12px 5px;
+          font-weight: $font-weight-bold;
+          @include transition(0.3s);
+          cursor: pointer;
+        }
+        .tab.active,
+        .tab:hover {
+          background-color: $elam_secondary;
+        }
+      }
+
+      .btn {
+        text-align: center;
+        display: block;
+        padding: 5px 0;
+        color: $elam_secondary;
+        background: none;
+      }
+    }
+
+  }
+  .widget:first-of-type {
+    padding-top: 0;
+  }
+}

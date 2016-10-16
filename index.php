@@ -48,7 +48,8 @@
                                             Lorem ipsum
                                         </div>
 
-                                        <div class="the-content">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        <div class="the-content extrait">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing
                                             elit. Corporis cum delectus deserunt dolorem, eveniet expedita hic in labore
                                             neque nostrum porro quibusdam quo, recusandae totam vero vitae voluptate,
                                             voluptatem voluptates.
@@ -64,7 +65,8 @@
                                             Lorem ipsum
                                         </div>
 
-                                        <div class="the-content">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        <div class="the-content extrait">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing
                                             elit. Corporis cum delectus deserunt dolorem, eveniet expedita hic in labore
                                             neque nostrum porro quibusdam quo, recusandae totam vero vitae voluptate,
                                             voluptatem voluptates.
@@ -80,7 +82,8 @@
                                             Lorem ipsum
                                         </div>
 
-                                        <div class="the-content">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        <div class="the-content extrait">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing
                                             elit. Corporis cum delectus deserunt dolorem, eveniet expedita hic in labore
                                             neque nostrum porro quibusdam quo, recusandae totam vero vitae voluptate,
                                             voluptatem voluptates.
@@ -96,7 +99,8 @@
                                             Lorem ipsum
                                         </div>
 
-                                        <div class="the-content">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        <div class="the-content extrait">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing
                                             elit. Corporis cum delectus deserunt dolorem, eveniet expedita hic in labore
                                             neque nostrum porro quibusdam quo, recusandae totam vero vitae voluptate,
                                             voluptatem voluptates.
@@ -147,7 +151,7 @@
                                 <span class="the-category elam-blue">Concours</span>
                             </div>
                             <a href="#" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-content">
+                            <div class="the-content extrait">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>
@@ -157,7 +161,7 @@
                                 <span class="the-category elam-blue">Concours</span>
                             </div>
                             <a href="#" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-content">
+                            <div class="the-content extrait">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>
@@ -167,7 +171,7 @@
                                 <span class="the-category elam-blue">Concours</span>
                             </div>
                             <a href="#" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-content">
+                            <div class="the-content extrait">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>
@@ -182,7 +186,7 @@
                                 <span class="the-category elam-blue">Concours</span>
                             </div>
                             <a href="#" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-content">
+                            <div class="the-content extrait">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>
@@ -192,7 +196,7 @@
                                 <span class="the-category elam-blue">Concours</span>
                             </div>
                             <a href="#" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-content">
+                            <div class="the-content extrait">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>
@@ -202,7 +206,7 @@
                                 <span class="the-category elam-blue">Concours</span>
                             </div>
                             <a href="#" class="the-title" title="title">Lorem ipsum</a>
-                            <div class="the-content">
+                            <div class="the-content extrait">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi perspiciatis quia quo totam veniam!
                             </div>
                         </div>

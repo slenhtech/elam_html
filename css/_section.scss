@@ -45,6 +45,9 @@
   margin-bottom: 50px;
 }
 
+.article-large {
+  margin: 20px 0;
+}
 .articles{
   .article{
     margin-bottom: 30px;
@@ -89,12 +92,107 @@
       text-align: justify;
       font-size: 13px;
     }
+    .the-btn.plus {
+      font-size: 13px;
+      padding: 5px 40px 5px 10px;
+      text-align: left;
+      position: relative;
+      color: #fff;
+      display: inline-block;
+      text-transform: uppercase;
+      font-weight: $font-weight-bold;
+      background-color: $elam_secondary;
+      margin: 8px 0;
+    }
+    .the-btn.plus:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 5px;
+      height: 100%;
+      background-color: rgba(#000, 0.2);
+    }
+
+    .the-metadata {
+      .the-date,
+      .the-author,
+      .the-comments {
+        color: #909090;
+        font-size: 13px;
+        display: inline-block;
+        vertical-align: top;
+        padding: 3px 5px;
+        position: relative;
+      }
+      .the-comments {
+        color: $elam_secondary;
+      }
+      .the-author:before,
+      .the-date:before {
+        font-family: 'FontAwesome', sans-serif;
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      .the-date:before {
+        content: '\f073';
+      }
+      .the-author:before {
+        content: '\f007';
+      }
+    }
   }
   .article:hover{
     .the-thumbnail{
       img{
         transform: scale(1.3);
       }
+    }
+  }
+}
+
+.elam-pagination {
+  margin: 15px 0;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  li {
+    display: inline-block;
+    vertical-align: top;
+
+    a,
+    .page-dots {
+      display: inline-block;
+      padding: 10px 20px;
+      border: solid 1px #ddd;
+    }
+
+  }
+  li:first-of-type {
+    a {
+      border-radius: 5px 0 0 5px;
+    }
+  }
+  li:last-of-type {
+    a {
+      border-radius: 0 5px 5px 0;
+    }
+  }
+}
+
+.elam-secondary.elam-pagination {
+  li {
+    a {
+      color: $elam_secondary;
+      @include transition(0.2s);
+    }
+    a:hover,
+    a.active {
+      background-color: $elam_secondary;
+      color: #fff;
+      border-color: $elam_secondary;
     }
   }
 }

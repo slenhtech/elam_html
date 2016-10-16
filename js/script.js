@@ -109,7 +109,7 @@ $('.vert-carousel').each(function () {
 
 /********************************
 
-   Metiers carouosel
+ Metiers carousel
 
  ********************************/
 
@@ -148,8 +148,10 @@ var slide_controls = carousel_evenements_section.find('.frame');
 
 carousel_evenements.owlCarousel({
     singleItem: true,
+    autoPlay: true,
     lazyLoad: true,
-    slideSpeed: 1000
+    slideSpeed: 1000,
+    afterAction: updateFrame
 });
 
 var owl_evenements = carousel_evenements.data('owlCarousel');
@@ -157,16 +159,25 @@ var owl_evenements = carousel_evenements.data('owlCarousel');
 function carouselEvenements() {
     slide_controls.each(function (index) {
         $(this).hover(function () {
-            carousel_evenements_section.find('.active').removeClass('active');
+            carousel_evenements_section
+                .find('.active')
+                .removeClass('active');
+
             $(this).addClass('active');
             owl_evenements.goTo(index);
         })
     })
 }
-
 $(carouselEvenements());
 
-
+function updateFrame() {
+    var current = this.currentItem;
+    carousel_evenements_section
+        .find('.frame')
+        .removeClass('active')
+        .eq(current)
+        .addClass('active');
+}
 
 /********************************
 
@@ -309,7 +320,8 @@ function initMap() {
     var etablissement = {lat: 0.397249, lng: 9.445977};
     var map = new google.maps.Map(document.getElementById('googlemap'), {
         center: etablissement,
-        zoom: 18
+        zoom: 18,
+        scrollwheel: false
     });
 
     var marker = new google.maps.Marker({
@@ -321,13 +333,64 @@ function initMap() {
 }
 
 
+/********************************
+
+ Exerpt function
+
+ ********************************/
+
+
+var extraits = $('.extrait');
+var extraitShort = $('.extrait-short');
+extraits.each(function () {
+    var excerpt = $(this);
+    if (excerpt.text().length > 145) {
+        excerpt.text(excerpt.text().substring(0, 145) + ' [...]');
+    }
+});
+extraitShort.each(function () {
+    var excerpt = $(this);
+    if (excerpt.text().length > 100) {
+        excerpt.text(excerpt.text().substring(0, 100) + ' [...]');
+    }
+});
 
 
 
 
 
+/********************************
 
+ posts-widget tabs
 
+ ********************************/
+var posts_widget = $('.posts-widget');
+var postsWidgetCarousel = posts_widget.find('.owl-carousel');
+
+postsWidgetCarousel.owlCarousel({
+    singleItem: true,
+    dots: false,
+    afterAction: updateTabs
+});
+
+var owlPostsWidget = postsWidgetCarousel.data('owlCarousel');
+var tabs = posts_widget.find('.tab');
+
+tabs.each(function (index) {
+    $(this).click(function () {
+        owlPostsWidget.goTo(index);
+    })
+})
+
+function updateTabs() {
+    var current = this.currentItem;
+
+    posts_widget
+        .find('.tab')
+        .removeClass('active')
+        .eq(current)
+        .addClass('active');
+}
 
 /********************************
 

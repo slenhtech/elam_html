@@ -340,22 +340,19 @@ function initMap() {
  ********************************/
 
 
-var extraits = $('.extrait');
-var extraitShort = $('.extrait-short');
-extraits.each(function () {
-    var excerpt = $(this);
-    if (excerpt.text().length > 145) {
-        excerpt.text(excerpt.text().substring(0, 145) + ' [...]');
-    }
-});
-extraitShort.each(function () {
-    var excerpt = $(this);
-    if (excerpt.text().length > 100) {
-        excerpt.text(excerpt.text().substring(0, 100) + ' [...]');
-    }
-});
 
-
+function excerptFunction(identifier, txtLength) {
+    var excerpts = $(identifier);
+    excerpts.each(function () {
+        var excerpt = $(this);
+        if (excerpt.text().length > txtLength) {
+            console.log(excerpt.text().length);
+            excerpt.text(excerpt.text().substring(0, txtLength) + ' [...]');
+        }
+    });
+}
+$(excerptFunction('.extrait', 125));
+$(excerptFunction('.short', 55));
 
 
 
@@ -369,7 +366,7 @@ var postsWidgetCarousel = posts_widget.find('.owl-carousel');
 
 postsWidgetCarousel.owlCarousel({
     singleItem: true,
-    dots: false,
+    pagination: false,
     afterAction: updateTabs
 });
 

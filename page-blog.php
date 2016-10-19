@@ -38,7 +38,7 @@
                                         Lorem ipsum
                                     </div>
 
-                                    <div class="the-conten extrait">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    <div class="the-content extrait">Lorem ipsum dolor sit amet, consectetur adipisicing
                                         elit. Corporis cum delectus deserunt dolorem, eveniet expedita hic in labore
                                         neque nostrum porro quibusdam quo, recusandae totam vero vitae voluptate,
                                         voluptatem voluptates.
@@ -130,29 +130,81 @@
                 <div class="row articles">
                     <div class="col-sm-4 article" data-animate="zoomIn">
                         <div class="the-thumbnail">
-                            <a href="page-secteurs_details.php" title="title"><img src="img/img.jpg" alt="slide 1"
-                                                                                   class="img-responsive"/></a>
+                            <a href="page-article.php" title="title"><img src="img/img.jpg" alt="slide 1"
+                                                                          class="img-responsive"/></a>
                             <span class="the-category elam-secondary">Agri/pêche</span>
                         </div>
-                        <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum dolor sit
+                        <a href="page-article.php" class="the-title" title="title">Lorem ipsum dolor sit
                             amet</a>
                         <div class="the-metadata">
                             <span class="the-date">20 Sept 2016</span>
                             <span class="the-author">The author</span>
                         </div>
-                        <div class="the-content extrait">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi,
-                            cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi
-                            perspiciatis quia quo totam veniam!
+                        <div class="the-content extrait">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam,
+                            iste magnam minus modi perspiciatis quia quo totam veniam!
                         </div>
                     </div>
                     <div class="col-sm-4 article" data-animate="zoomIn">
                         <div class="the-thumbnail">
-                            <a href="page-secteurs_details.php" title="title"><img src="img/2.jpg" alt="slide 1"
-                                                                                   class="img-responsive"/></a>
+                            <a href="page-article.php" title="title"><img src="img/2.jpg" alt="slide 1"
+                                                                          class="img-responsive"/></a>
                             <span class="the-category elam-primary">Agri/pêche</span>
                         </div>
-                        <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum dolor sit
+                        <a href="page-article.php" class="the-title" title="title">Lorem ipsum dolor sit
+                            amet</a>
+                        <div class="the-metadata">
+                            <span class="the-date">20 Sept 2016</span>
+                            <span class="the-author">The author</span>
+                        </div>
+                        <div class="the-content extrait">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam,
+                            iste magnam minus modi perspiciatis quia quo totam veniam!
+                        </div>
+                    </div>
+                    <div class="col-sm-4 article" data-animate="zoomIn">
+                        <div class="the-thumbnail">
+                            <a href="page-article.php" title="title"><img src="img/3.jpg" alt="slide 1"
+                                                                          class="img-responsive"/></a>
+                            <span class="the-category elam-tertiary">Agri/pêche</span>
+                        </div>
+                        <a href="page-article.php" class="the-title" title="title">Lorem ipsum dolor sit
+                            amet</a>
+                        <div class="the-metadata">
+                            <span class="the-date">20 Sept 2016</span>
+                            <span class="the-author">The author</span>
+                        </div>
+                        <div class="the-content extrait">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Accusamus ad beatae commodi, cupiditate doloribus eius eos esse et explicabo harum ipsam,
+                            iste magnam minus modi perspiciatis quia quo totam veniam!
+                        </div>
+                    </div>
+                </div>
+                <div class="row articles">
+                    <div class="col-sm-4 article" data-animate="zoomIn">
+                        <div class="the-thumbnail">
+                            <a href="page-article.php" title="title"><img src="img/img.jpg" alt="slide 1"
+                                                                          class="img-responsive"/></a>
+                            <span class="the-category elam-secondary">Agri/pêche</span>
+                        </div>
+                        <a href="page-article.php" class="the-title" title="title">Lorem ipsum dolor sit
+                            amet</a>
+                        <div class="the-metadata">
+                            <span class="the-date">20 Sept 2016</span>
+                            <span class="the-author">The author</span>
+                        </div>
+                        <div class="the-content extrait">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur atque autem consequuntur cumque cupiditate excepturi fuga impedit, iure mollitia
+                            nam numquam placeat quam quis reiciendis similique suscipit unde. Autem, saepe?
+                        </div>
+                    </div>
+                    <div class="col-sm-4 article" data-animate="zoomIn">
+                        <div class="the-thumbnail">
+                            <a href="page-article.php" title="title"><img src="img/2.jpg" alt="slide 1"
+                                                                          class="img-responsive"/></a>
+                            <span class="the-category elam-primary">Agri/pêche</span>
+                        </div>
+                        <a href="page-article.php" class="the-title" title="title">Lorem ipsum dolor sit
                             amet</a>
                         <div class="the-metadata">
                             <span class="the-date">20 Sept 2016</span>
@@ -166,11 +218,11 @@
                     </div>
                     <div class="col-sm-4 article" data-animate="zoomIn">
                         <div class="the-thumbnail">
-                            <a href="page-secteurs_details.php" title="title"><img src="img/3.jpg" alt="slide 1"
-                                                                                   class="img-responsive"/></a>
+                            <a href="page-article.php" title="title"><img src="img/3.jpg" alt="slide 1"
+                                                                          class="img-responsive"/></a>
                             <span class="the-category elam-tertiary">Agri/pêche</span>
                         </div>
-                        <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum dolor sit
+                        <a href="page-article.php" class="the-title" title="title">Lorem ipsum dolor sit
                             amet</a>
                         <div class="the-metadata">
                             <span class="the-date">20 Sept 2016</span>
@@ -183,14 +235,15 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="row articles">
                     <div class="col-sm-4 article" data-animate="zoomIn">
                         <div class="the-thumbnail">
-                            <a href="page-secteurs_details.php" title="title"><img src="img/img.jpg" alt="slide 1"
-                                                                                   class="img-responsive"/></a>
+                            <a href="page-article.php" title="title"><img src="img/img.jpg" alt="slide 1"
+                                                                          class="img-responsive"/></a>
                             <span class="the-category elam-secondary">Agri/pêche</span>
                         </div>
-                        <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum dolor sit
+                        <a href="page-article.php" class="the-title" title="title">Lorem ipsum dolor sit
                             amet</a>
                         <div class="the-metadata">
                             <span class="the-date">20 Sept 2016</span>
@@ -204,11 +257,11 @@
                     </div>
                     <div class="col-sm-4 article" data-animate="zoomIn">
                         <div class="the-thumbnail">
-                            <a href="page-secteurs_details.php" title="title"><img src="img/2.jpg" alt="slide 1"
-                                                                                   class="img-responsive"/></a>
+                            <a href="page-article.php" title="title"><img src="img/2.jpg" alt="slide 1"
+                                                                          class="img-responsive"/></a>
                             <span class="the-category elam-primary">Agri/pêche</span>
                         </div>
-                        <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum dolor sit
+                        <a href="page-article.php" class="the-title" title="title">Lorem ipsum dolor sit
                             amet</a>
                         <div class="the-metadata">
                             <span class="the-date">20 Sept 2016</span>
@@ -222,67 +275,11 @@
                     </div>
                     <div class="col-sm-4 article" data-animate="zoomIn">
                         <div class="the-thumbnail">
-                            <a href="page-secteurs_details.php" title="title"><img src="img/3.jpg" alt="slide 1"
-                                                                                   class="img-responsive"/></a>
+                            <a href="page-article.php" title="title"><img src="img/3.jpg" alt="slide 1"
+                                                                          class="img-responsive"/></a>
                             <span class="the-category elam-tertiary">Agri/pêche</span>
                         </div>
-                        <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum dolor sit
-                            amet</a>
-                        <div class="the-metadata">
-                            <span class="the-date">20 Sept 2016</span>
-                            <span class="the-author">The author</span>
-                        </div>
-                        <div class="the-content extrait">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi,
-                            cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi
-                            perspiciatis quia quo totam veniam!
-                        </div>
-                    </div>
-                </div>
-                <div class="row articles">
-                    <div class="col-sm-4 article" data-animate="zoomIn">
-                        <div class="the-thumbnail">
-                            <a href="page-secteurs_details.php" title="title"><img src="img/img.jpg" alt="slide 1"
-                                                                                   class="img-responsive"/></a>
-                            <span class="the-category elam-secondary">Agri/pêche</span>
-                        </div>
-                        <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum dolor sit
-                            amet</a>
-                        <div class="the-metadata">
-                            <span class="the-date">20 Sept 2016</span>
-                            <span class="the-author">The author</span>
-                        </div>
-                        <div class="the-content extrait">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi,
-                            cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi
-                            perspiciatis quia quo totam veniam!
-                        </div>
-                    </div>
-                    <div class="col-sm-4 article" data-animate="zoomIn">
-                        <div class="the-thumbnail">
-                            <a href="page-secteurs_details.php" title="title"><img src="img/2.jpg" alt="slide 1"
-                                                                                   class="img-responsive"/></a>
-                            <span class="the-category elam-primary">Agri/pêche</span>
-                        </div>
-                        <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum dolor sit
-                            amet</a>
-                        <div class="the-metadata">
-                            <span class="the-date">20 Sept 2016</span>
-                            <span class="the-author">The author</span>
-                        </div>
-                        <div class="the-content extrait">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae commodi,
-                            cupiditate doloribus eius eos esse et explicabo harum ipsam, iste magnam minus modi
-                            perspiciatis quia quo totam veniam!
-                        </div>
-                    </div>
-                    <div class="col-sm-4 article" data-animate="zoomIn">
-                        <div class="the-thumbnail">
-                            <a href="page-secteurs_details.php" title="title"><img src="img/3.jpg" alt="slide 1"
-                                                                                   class="img-responsive"/></a>
-                            <span class="the-category elam-tertiary">Agri/pêche</span>
-                        </div>
-                        <a href="page-secteurs_details.php" class="the-title" title="title">Lorem ipsum dolor sit
+                        <a href="page-article.php" class="the-title" title="title">Lorem ipsum dolor sit
                             amet</a>
                         <div class="the-metadata">
                             <span class="the-date">20 Sept 2016</span>
@@ -413,6 +410,17 @@
 
                 <div class="widget">
                     <h4 class="section-title">Tweets à la une</h4>
+                </div>
+
+                <div class="widget">
+                    <div class="liens-rs">
+                        <ul>
+                            <li><a href="#" class="facebook"></a></li>
+                            <li><a href="#" class="twitter"></a></li>
+                            <li><a href="#" class="google-plus"></a></li>
+                            <li><a href="#" class="rss"></a></li>
+                        </ul>
+                    </div>
                 </div>
 
                 <a class="pub" href="#"><img src="img/pub/1.gif" alt="Pub"/></a>

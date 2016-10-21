@@ -236,3 +236,78 @@
     background-color: $elam_secondary;
   }
 }
+
+.elam-form {
+  margin: 50px 0 30px;
+  .row {
+    margin-bottom: 10px;
+  }
+  .form-label {
+    text-align: right;
+    font-weight: $font-weight-bold;
+    padding: 8px 10px;
+    * {
+      display: block;
+    }
+    .required:after {
+      content: '*';
+      color: red;
+      font-weight: normal;
+      margin-left: 5px;
+    }
+  }
+  .form-tooltip {
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 13px;
+    font-weight: $font-weight-bold;
+    background-color: $elam_blue;
+    color: #fff;
+    border-radius: 100%;
+  }
+
+  .elam-radio {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 10px;
+    font-weight: normal;
+    cursor: pointer;
+    border: solid 1px #ddd;
+
+    input {
+      display: none;
+    }
+  }
+  .elam-radio.checked {
+    background-color: $elam_blue;
+    color: #fff;
+    border-color: $elam_blue;
+  }
+  .elam-radio:before {
+    font-family: 'FontAwesome', sans-serif;
+    margin-right: 10px;
+  }
+  .elam-radio.homme:before {
+    content: '\f183';
+  }
+  .elam-radio.femme:before {
+    content: '\f182';
+  }
+  .tooltip-inner {
+    background-color: $elam_blue;
+  }
+  .tooltip-arrow {
+    display: none;
+  }
+
+  .input-field {
+    display: block;
+    padding: 8px 5px;
+    width: 100%;
+  }
+  .input-field.inline {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+  }
+}

@@ -19,11 +19,11 @@
          section start
 ============================== -->
 
-<div id="pub-carte-elam"  data-parallax="scroll" data-image-src="img/carte.jpeg">
+<div id="pub-carte-elam" data-parallax="scroll" data-image-src="img/image-carte-elam.jpg">
     <div class="container">
         <h3 class="the-title">Carte ELAM</h3>
         <div class="the-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolore, dolores eius, explicabo facere hic impedit, maiores natus odio officia repudiandae tempore unde voluptate? Atque dolore eveniet molestiae repellendus sunt.</div>
-        <a href="#" class="btn plus">Obtenir</a>
+        <a href="page-carte-elam.php" class="btn plus">Obtenir</a>
     </div>
 </div>
 

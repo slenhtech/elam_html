@@ -391,6 +391,25 @@ function updateTabs() {
 
 /********************************
 
+ Elam radio butons
+
+ ********************************/
+
+var elamRadio = $('.elam-radio');
+
+elamRadio.each(function () {
+    var input = $(this).find('input');
+    input.change(function () {
+        if (this.checked) {
+            elamRadio.removeClass('checked');
+            $(this).parent('.elam-radio').addClass('checked');
+        }
+    })
+})
+
+
+/********************************
+
  Dropdown Toggle Clear defaults
 
  ********************************/

@@ -60,7 +60,6 @@
   text-align: center;
   color: #fff;
   margin: 30px 0;
-  background-blend-mode: multiply;
 
   .container{
     position: relative;
@@ -69,6 +68,15 @@
   .btn.plus {
     background-color: #fff !important;
   }
+}
+
+.elam-banner.elam-blue {
+  background-image: url("../img/Elam-bandeau-1140x120.jpg");
+}
+
+.elam-banner.elam-green {
+  background-blend-mode: multiply;
+  background-image: url("../img/Elam-bandeau-1140x120.jpg");
 }
 
 #jumbo-details {
